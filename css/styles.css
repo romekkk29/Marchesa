@@ -1,0 +1,163 @@
+/* global */
+*{
+    margin:0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "verdana";
+    word-spacing: 10px;
+    letter-spacing: 8px;
+}
+/* header */
+.top {
+    background-color: #dde3dd;
+    padding: 3px;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+}
+.logo{
+    background-color: white;
+}
+.logo1 {
+    background-image: url("../img/1/logo2.png");
+    height: 55px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 47%;
+}
+header{
+    position:sticky; top:0px; 
+    background-color: white;
+    color:black;
+}
+.banner ul{
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+li:hover{
+    transform:scale(1.2);
+}
+li a:active{
+    color:#dde3dd;
+    transform: rotate(2deg);
+}
+li:active{
+    transform: rotate(10deg);
+}
+/* menu desplegable */
+.menu{
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    z-index: 100000000;
+    display: none;
+}
+.menu a i{
+    font-size: 20px;
+    padding: 20px;
+}
+.menu-bar{
+    
+    display: none;
+}
+.menu-bar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.menu-bar ul li {
+    margin: 20px;
+}
+.menu-bar a{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+.menu-bar2{
+    display: flex;
+    position: fixed;
+    background-color: white;
+    text-align: left;
+    height: 75%;
+}
+/* main */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+main img:hover{
+    border:solid 2px #d3d3d3;
+}
+main img{
+    height: 300px;
+    width: 240px;
+    margin: 5px auto;
+}
+/* footer */
+footer{
+    background-color: #1C2833;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    color: #F0F3F4;
+    font-size: 10px;
+    text-decoration: none;
+    margin: 3px;
+}
+footer a i {
+    font-size: 20px;
+    color: #F0F3F4;
+}
+
+/* pantalla de incio */
+.fondoVerdadero {
+  background-image: url("../img/1/fondo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+
+
+/* queries */
+@media all and (max-width:1000px){
+    .banner{
+       display: none;
+    }
+    .menu{
+        display:block;
+    }
+}
+ @media all and (max-width:700px){
+    .top{
+           font-size: 7px;
+           word-spacing: 5px;
+           letter-spacing: 4px;
+    }
+    li:hover{
+        transform:scale(1.1);
+    }
+    li:active{
+        transform: rotate(10deg);
+    }
+    }
+    @media all and (min-width:1000px){
+        .menu-bar2{
+            display:none;
+        }
+    }

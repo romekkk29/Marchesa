@@ -60,13 +60,31 @@ li:active{
     z-index: 100000000;
     display: none;
 }
+.menu2{
+    position:fixed;
+    bottom: 20px;
+    left: 5px;
+    z-index: 100000000;
+    display: none;
+}
+.menu2 a i{
+    font-size: 20px;
+    padding: 20px;
+}
 .menu a i{
     font-size: 20px;
     padding: 20px;
 }
 .menu-bar{
-    
-    display: none;
+    transform: translate(-100%);
+    display: flex;
+    position: fixed;
+    background-color: white;
+    text-align: left;
+    height: 75%;
+}
+.isactive{
+    transform: translate(0);
 }
 .menu-bar ul{
     display: flex;
@@ -139,9 +157,10 @@ footer a i {
     .banner{
        display: none;
     }
-    .menu{
-        display:block;
-    }
+   /*  .menu{
+        display:block; es para mostrar el menu arriba
+    } */
+    .menu2{display: block;}
 }
  @media all and (max-width:700px){
     .top{

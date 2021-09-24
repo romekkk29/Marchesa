@@ -55,13 +55,10 @@ li:active{
 /* menu desplegable */
 .menu{
     position: absolute;
-    top: 1px;
+    top: 15px;
     left: 5px;
     z-index: 100000000;
-    background-color: #dde3dd;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
+   display: none;
 
 }
 .menu2{
@@ -95,9 +92,7 @@ li:active{
 }
 .menu a i{
     font-size: 20px;
-    position: absolute;
-    left: 16px;
-    top:15px;
+  
 
 }
 .menu-bar{
@@ -182,9 +177,9 @@ footer a i {
     .banner{
        display: none;
     }
-   /*  .menu{
-        display:block; es para mostrar el menu arriba
-    } */
+    .menu{
+        display:block; 
+    } 
     /* .menu2{display: block;} */
 }
  @media all and (max-width:700px){

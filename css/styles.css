@@ -173,6 +173,17 @@ footer a i {
   height: 1200px;
 }
 
+.fa-whatsapp{
+    font-size: 30px;
+    z-index: 2312312321312312321;
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+}
+.whatsapp a{
+    padding: 20px;
+}
+
 
 /* queries */
 @media all and (max-width:1000px){

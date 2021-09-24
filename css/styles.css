@@ -9,6 +9,7 @@ body{
     font-family: "verdana";
     word-spacing: 10px;
     letter-spacing: 8px;
+
 }
 /* header */
 .top {
@@ -139,8 +140,8 @@ main img:hover{
     border:solid 2px #d3d3d3;
 }
 main img{
-    height: 300px;
-    width: 240px;
+    height: 320px;
+    width: 270px;
     margin: 5px auto;
 }
 /* footer */

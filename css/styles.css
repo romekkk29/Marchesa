@@ -141,7 +141,7 @@ main img:hover{
 }
 main img{
     height: 320px;
-    width: 270px;
+    width: 260px;
     margin: 5px auto;
 }
 /* footer */
@@ -177,8 +177,8 @@ footer a i {
     font-size: 30px;
     z-index: 2312312321312312321;
     position: fixed;
-    right: 10px;
-    bottom: 70px;
+    right: 7px;
+    bottom: 37px;
 }
 .whatsapp a{
     padding: 20px;
@@ -213,3 +213,16 @@ footer a i {
             display:none;
         }
     }
+    @media all and (max-width:340px){
+        .fa-whatsapp{
+            right: 0px;}
+        main img{
+            width: 240px;
+        }
+        }
+        @media all and (min-width:1100px){
+            .fa-whatsapp{
+                right: 0px;
+                font-size: 50px;
+}
+        }

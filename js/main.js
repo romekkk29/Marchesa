@@ -34,3 +34,32 @@ function enableScroll(){
     window.onscroll = null;
 }
  */
+var imagenes= ["img/SIUX CUERO_/principal1.jpg","img/SIUX CUERO_/principal1.jpg","img/SIUX CUERO_/principal1.jpg","img/NEST CUERO/principal1.jpg","img/MALI CUERO/principal1.jpg"]
+let cont=0;
+function carrousel(contenedor){
+    contenedor.addEventListener("click", e => {
+        let atras=contenedor.querySelector(".atras");
+        let adelante= contenedor.querySelector(".adelante");
+        let imagen=contenedor.querySelector("img");
+        let tgt=e.target;
+        if(tgt==atras){
+            if(cont >0){
+                imagen.src= imagenes[cont -1];
+                cont--;
+            }else { imagen.src= imagenes[imagenes.length - 1];
+                     cont= imagenes.length - 1;
+            }
+        } else if(tgt==adelante) {
+            if(cont < imagenes.length-1){
+                imagen.src= imagenes[cont +1];
+                cont++;
+            }else { imagen.src= imagenes[0];
+                     cont= 0;
+            }
+        }
+    })
+}
+document.addEventListener("DOMContentLoaded", ()=>{
+    let contenedor=document.querySelector(".carrousel");
+    carrousel(contenedor);
+})

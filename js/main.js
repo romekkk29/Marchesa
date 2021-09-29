@@ -34,9 +34,10 @@ function enableScroll(){
     window.onscroll = null;
 }
  */
-var imagenes= ["img/SIUX CUERO_/principal1.jpg","img/SIUX CUERO_/principal1.jpg","img/SIUX CUERO_/principal1.jpg","img/NEST CUERO/principal1.jpg","img/MALI CUERO/principal1.jpg"]
+var imagenes2= ["img/2/ABRU.jpg","img/2/candy.jpg","img/2/find2.jpg","img/2/KYLIE.jpg","img/2/lele.jpg"]
+
 let cont=0;
-function carrousel(contenedor){
+function carrousel(contenedor,imagenes){
     contenedor.addEventListener("click", e => {
         let atras=contenedor.querySelector(".atras");
         let adelante= contenedor.querySelector(".adelante");
@@ -60,6 +61,118 @@ function carrousel(contenedor){
     })
 }
 document.addEventListener("DOMContentLoaded", ()=>{
-    let contenedor=document.querySelector(".carrousel");
-    carrousel(contenedor);
+    let contenedor2=document.querySelector(".este");
+    carrousel(contenedor2,imagenes2);
 })
+
+
+
+function escribirHTML(objeto) {
+    let contenedor = document.querySelector(".rome");
+    let imgSrc=[];
+    for(let imagen of objeto.imgUrl){
+        imgSrc.push(imagen);
+    }
+    const miTemplate =`
+    <div class="rome2">
+    <div class="carrousel norte">
+    <div> 
+        <h2> NOMBRE</h2>
+    </div>
+    <div class="atras botones">
+        &#60
+    </div>
+    <div class="adelante botones">
+        &#62
+    </div>
+    <img src=imgSrc[1]>
+    </div>
+
+    </div>
+    <h2>${objeto.title}</h2>
+    <h2>${objeto.precio}</h2>
+    <p>${objeto.description}</p>
+    
+    `;
+    contenedor.innerHTML += miTemplate;
+    document.addEventListener("DOMContentLoaded", ()=>{
+        let contenedor3=document.querySelector(".norte");
+        carrousel(contenedor3,imgSrc);
+    })
+}
+escribirHTML(listadoImagenes[0]);
+
+
+/*  const slider = document.querySelector(".rome2");
+let slides= Array.from(document.querySelectorAll(".preRome"));
+
+let isDragging= false;
+let startPos=0;
+let currentTranslate=0;
+let prevTranslate=0;
+let animationID=0;
+let currentIndex=0;
+
+slides.forEach((slide,index) =>{
+    const slideImg=slide ;
+    slideImg.addEventListener("dragstart", e => e.preventDefault())
+    slide.addEventListener("touchstart", touchStart(index))
+    slide.addEventListener("touchend", touchEnd)
+    slide.addEventListener("touchmove", touchMove)
+
+
+    slide.addEventListener("mousedown", touchStart(index))
+    slide.addEventListener("mouseup", touchEnd)
+    slide.addEventListener("mouseleave", touchEnd)
+    slide.addEventListener("mousemove", touchMove)
+})
+window.oncontextmenu= function(event){
+    event.preventDefault()
+    event.stopPropagation()
+    return false 
+}
+function touchStart(index){
+    return function(event){
+        currentIndex= index;
+        startPos =getPositionX(event)
+        isDragging=true;
+        animationID= requestAnimationFrame;
+        slider.classList.add("grabbing")
+    }
+}
+function touchEnd(){
+    isDragging=false;
+    cancelAnimationFrame(animationID);
+    const movedBy=currentTranslate-prevTranslate;
+    if (movedBy<-25 && currentIndex<slides.length-1)
+    currentIndex +=1
+    if (movedBy>25  && currentIndex>0)
+    currentIndex -=1
+    setPositionByIndex()
+    slider.classList.remove("grabbing");
+
+}
+function touchMove(event){
+    if(isDragging){
+            const currentPosition= getPositionX(event);
+            currentTranslate=prevTranslate + currentPosition- startPos
+    }
+}
+function getPositionX(event){
+    return event.type.includes("mouse") ? event.pageX : event.touches[0].clientX ;
+}
+
+function animation(){
+      setSliderPosition()
+        
+        if(isDragging) requestAnimationFrame(animation)
+}
+function  setSliderPosition(){
+    slider.style.transform = `translateX(${currentTranslate}px)`
+}
+function setPositionByIndex(){
+    currentTranslate= currentIndex * -window.innerWidth
+    prevTranslate= currentTranslate
+    setSliderPosition()
+}
+  */

@@ -65,42 +65,44 @@ document.addEventListener("DOMContentLoaded", ()=>{
     carrousel(contenedor2,imagenes2);
 })
 
+let imgSrc=[];
+ let p=document.querySelector(".ssss");
+  p.addEventListener("click",myFunction);
+function myFunction(){
+  escribirHTML(listadoImagenes);
+let cancelar=document.querySelector(".teQuiero");
+ cancelar.style.display="none";
+ let contenedor3=document.querySelector(".norte");
+carrousel(contenedor3,imgSrc) 
+    }
 
-
+   
 function escribirHTML(objeto) {
-    let contenedor = document.querySelector(".rome");
-    let imgSrc=[];
     for(let imagen of objeto.imgUrl){
         imgSrc.push(imagen);
     }
+    console.log(imgSrc)
+    let contenedor = document.querySelector(".rome");
     const miTemplate =`
     <div class="rome2">
     <div class="carrousel norte">
-    <div> 
-        <h2> NOMBRE</h2>
-    </div>
     <div class="atras botones">
         &#60
     </div>
     <div class="adelante botones">
         &#62
     </div>
-    <img src=imgSrc[1]>
+    <img src=${imgSrc[0]}>
     </div>
 
     </div>
-    <h2>${objeto.title}</h2>
-    <h2>${objeto.precio}</h2>
+    <p>${objeto.title}</p>
+    <p>${objeto.precio}</p>
     <p>${objeto.description}</p>
     
     `;
     contenedor.innerHTML += miTemplate;
-    document.addEventListener("DOMContentLoaded", ()=>{
-        let contenedor3=document.querySelector(".norte");
-        carrousel(contenedor3,imgSrc);
-    })
 }
-escribirHTML(listadoImagenes[0]);
 
 
 /*  const slider = document.querySelector(".rome2");

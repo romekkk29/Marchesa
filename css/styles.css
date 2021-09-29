@@ -34,6 +34,7 @@ header{
     position:sticky; top:0px; 
     background-color: white;
     color:black;
+    z-index: 213123123213123213;
 }
 .banner ul{
     display: flex;
@@ -132,12 +133,16 @@ li:active{
     z-index: 10000000;
 }
 /* main */
- main {
+
+.teQuiero{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+}
+p{
+    text-align: center;
 }
 main img:hover{
     border:solid 2px #d3d3d3;

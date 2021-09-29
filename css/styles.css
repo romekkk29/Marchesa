@@ -202,9 +202,18 @@ footer a i {
     margin: 2px auto;
     background-color:rgba(255, 255, 255, 0.014);
 }
+.este{
+    width: 70%;
+    height: 70%;
+}
+.este img{
+    width: 60%;
+    height: 60%;
+}
 .carrousel img{
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     border: solid 2px gray;
 
 }
@@ -236,6 +245,9 @@ footer a i {
 .adelante{
     right:2%;
     top:calc(50% - 35px);
+}
+.fa-shopping-cart{
+    display: none;
 }
 
 

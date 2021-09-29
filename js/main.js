@@ -73,7 +73,12 @@ function myFunction(){
 let cancelar=document.querySelector(".teQuiero");
  cancelar.style.display="none";
  let contenedor3=document.querySelector(".norte");
-carrousel(contenedor3,imgSrc) 
+carrousel(contenedor3,imgSrc) ;
+let carrito=document.querySelector(".fa-shopping-cart");
+carrito.style.display="block";
+carrito.style.position="abosolute";
+carrito.style.textAlign="center";
+carrito.style.fontSize="35px";
     }
 
    
@@ -84,7 +89,10 @@ function escribirHTML(objeto) {
     console.log(imgSrc)
     let contenedor = document.querySelector(".rome");
     const miTemplate =`
+    <br>
     <div class="rome2">
+    <p>${objeto.title}</p>
+    <p>${objeto.description}</p>
     <div class="carrousel norte">
     <div class="atras botones">
         &#60
@@ -94,11 +102,9 @@ function escribirHTML(objeto) {
     </div>
     <img src=${imgSrc[0]}>
     </div>
-
-    </div>
-    <p>${objeto.title}</p>
     <p>${objeto.precio}</p>
-    <p>${objeto.description}</p>
+    </div>
+   
     
     `;
     contenedor.innerHTML += miTemplate;

@@ -1,7 +1,8 @@
   const btnMenu= document.querySelector(".menu");
 const menu= document.querySelector(".menu-bar");
-btnMenu.addEventListener("click",function(){
-    window.onscroll= function(){window.scrollTo(window.scrollX,window.scrollY)};
+btnMenu.addEventListener("click",function(e){
+    //window.onscroll= function(){window.scrollTo(window.scrollX,window.scrollY)};
+    e.preventDefault();
     menu.classList.toggle("isactive");
     
 })  
@@ -78,7 +79,10 @@ let carrito=document.querySelector(".fa-shopping-cart");
 carrito.style.display="block";
 carrito.style.position="abosolute";
 carrito.style.textAlign="center";
-carrito.style.fontSize="35px";
+carrito.style.fontSize="20px";
+let este=document.querySelector(".este");
+este.style.display="none";
+
     }
 
    
@@ -90,9 +94,12 @@ function escribirHTML(objeto) {
     let contenedor = document.querySelector(".rome");
     const miTemplate =`
     <br>
+    <br>
     <div class="rome2">
     <p>${objeto.title}</p>
+    <br>
     <p>${objeto.description}</p>
+    
     <div class="carrousel norte">
     <div class="atras botones">
         &#60
@@ -103,8 +110,8 @@ function escribirHTML(objeto) {
     <img src=${imgSrc[0]}>
     </div>
     <p>${objeto.precio}</p>
+    
     </div>
-   
     
     `;
     contenedor.innerHTML += miTemplate;

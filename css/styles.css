@@ -218,12 +218,12 @@ footer a i {
 
 }
 .botones{
-    font-size:15px;
-    width:35px;
-    height:35px;
-    line-height:35px;
+    font-size:6px;
+    width:25px;
+    height:25px;
+    line-height:25px;
     border-radius:50%;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: #1C2833;
     text-align:center;
     font-weight:bold;
     position:absolute;
@@ -240,11 +240,11 @@ footer a i {
 }
 .atras{
     left:2%;
-    top:calc(50% - 35px);
+    top:calc(50% - 5px);
 }
 .adelante{
     right:2%;
-    top:calc(50% - 35px);
+    top:calc(50% - 5px);
 }
 .fa-shopping-cart{
     display: none;

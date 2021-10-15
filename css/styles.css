@@ -172,13 +172,13 @@ footer a i {
 }
 
 /* pantalla de incio */
-.fondoVerdadero {
+/* .fondoVerdadero {
   background-image: url("../img/1/fondo.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 1200px;
-}
+} */
 
 .fa-whatsapp{
     font-size: 30px;
@@ -256,9 +256,7 @@ footer a i {
      display: flex;
      flex-direction: column;
 }
-.rome2{
- 
-}
+
 .preRome img{
     transition: transform 0.3s ease-in-out;
 }
@@ -267,6 +265,10 @@ footer a i {
 }
 .grabbing img{
     transform: scale(0.9);
+}
+.abajoB{
+    width: 100%;
+    height: 800px;
 }
 
 
@@ -306,11 +308,22 @@ footer a i {
             right: 0px;}
         main img{
             width: 240px;
-        }
+        }}
+        @media all and (min-width:500px){
+          .summer{
+              display: none;
+          }
+        
         }
         @media all and (min-width:1100px){
             .fa-whatsapp{
                 right: 0px;
                 font-size: 50px;
-}
+              }
         }
+
+
+.summer{
+    width: 100%;
+    height: 200px;
+}

@@ -75,11 +75,11 @@ let cancelar=document.querySelector(".teQuiero");
  cancelar.style.display="none";
  let contenedor3=document.querySelector(".norte");
 carrousel(contenedor3,imgSrc) ;
-let carrito=document.querySelector(".fa-shopping-cart");
+let carrito=document.querySelector(".carrito");
 carrito.style.display="block";
-carrito.style.position="abosolute";
-carrito.style.textAlign="center";
-carrito.style.fontSize="20px";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
 let este=document.querySelector(".este");
 este.style.display="none";
 

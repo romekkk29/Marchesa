@@ -246,9 +246,7 @@ footer a i {
     right:2%;
     top:calc(50% - 5px);
 }
-.fa-shopping-cart{
-    display: none;
-}
+
 
 
 
@@ -385,4 +383,25 @@ footer a i {
 }
 hr{
     width: 90%;
+}
+.carrito{
+    display: none;
+    position: relative;
+    background-color: #1C2833;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #1C2833;
+    border-radius: 3px ;
+    
+}
+.carrito p{
+    color: #cdcdcd;
+}
+.fa-shopping-cart{
+  color: #cdcdcd;
+  font-size:20px;
+  text-align: center;
+  margin: 3px;
+  font-size: 30px;
 }

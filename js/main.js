@@ -93,12 +93,7 @@ function escribirHTML(objeto) {
     console.log(imgSrc)
     let contenedor = document.querySelector(".rome");
     const miTemplate =`
-    <br>
-    <br>
     <div class="rome2">
-    <p>${objeto.title}</p>
-    <br>
-    <p>${objeto.description}</p>
     
     <div class="carrousel norte">
     <div class="atras botones">
@@ -109,8 +104,15 @@ function escribirHTML(objeto) {
     </div>
     <img src=${imgSrc[0]}>
     </div>
-    <p>${objeto.precio}</p>
     
+    <p>${objeto.title}</p>
+    <br>
+    <p>${objeto.precio}</p>
+    <br>
+    <hr>
+    <p class="descri">${objeto.description}</p>
+    <hr>
+    <br>
     </div>
     
     `;

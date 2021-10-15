@@ -380,6 +380,10 @@ footer a i {
     word-spacing: 2px;
     letter-spacing: 1px;
     color: black;
+    margin:9px;
+    text-align: center;
+    font-weight:lighter;
+    font-size: 14px;
 }
 hr{
     width: 90%;
@@ -405,3 +409,4 @@ hr{
   margin: 3px;
   font-size: 30px;
 }
+

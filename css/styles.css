@@ -334,13 +334,15 @@ footer a i {
     width: 170px;
     height: 30px;
     position: absolute;
-    left:26%;
+    left:16%;
     bottom: 10%;
     background-color: #1C2833;
     opacity: 0.6;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #1C2833;
+    border-radius: 3px ;
 }
 .hijaMartu p{
      color: white;
@@ -348,4 +350,27 @@ footer a i {
 }
 .fondoVerdadero{
     text-align: center;
+}
+.vivaLaVida{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recuadrar{
+    width: 120px;
+    height: 20px;
+    background-color: #1C2833;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1C2833;
+    border-radius: 3px ;
+    position: absolute;
+    left: 28%;
+    bottom: 5%;
+}
+.recuadrar p{
+    color: white;
+    font-weight:lighter;
+    font-size: 7px;
 }

@@ -8,8 +8,8 @@
 }
 body{
     font-family: "verdana";
-    word-spacing: 10px;
-    letter-spacing: 8px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
 
 }
 /* header */
@@ -19,6 +19,8 @@ body{
     color: black;
     text-align: center;
     font-size: 10px;
+    word-spacing: 10px;
+    letter-spacing: 8px;
 }
 .logo{
     background-color: white;
@@ -35,6 +37,8 @@ header{
     background-color: white;
     color:black;
     z-index: 213123123213123213;
+    word-spacing: 10px;
+    letter-spacing: 8px;
 }
 .banner ul{
     display: flex;
@@ -45,6 +49,8 @@ a{
     text-decoration: none;
     color: black;
     font-size: 13px;
+    word-spacing: 10px;
+    letter-spacing: 8px;
 }
 li:hover{
     transform:scale(1.2);
@@ -133,7 +139,11 @@ li:active{
     z-index: 10000000;
 }
 /* main */
+.vivaLaVida img{
+    opacity: 0.8;
+    filter: brightness(65%);
 
+}
 .teQuiero{
     display: flex;
     flex-wrap: wrap;
@@ -165,6 +175,8 @@ footer a {
     font-size: 10px;
     text-decoration: none;
     margin: 3px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
 }
 footer a i {
     font-size: 20px;
@@ -280,18 +292,19 @@ footer a i {
     position: relative;
 }
 .hijaMartu{
-    width: 170px;
-    height: 30px;
     position: absolute;
-    left:16%;
-    bottom: 10%;
-    background-color: #1C2833;
-    opacity: 0.6;
+    left: 22%;
+    bottom: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #1C2833;
     border-radius: 3px ;
+}
+.a3{
+    left: 35%;
+}
+.a4{
+    left:26%
 }
 .hijaMartu2{
     width: 250px;
@@ -306,8 +319,7 @@ footer a i {
 }
 .hijaMartu p{
      color: white;
-     font-size: 10px;
-   
+     font-size: 12px;
 }
 .hijaMartu2 p{
     color: white;
@@ -317,15 +329,15 @@ footer a i {
 }
 .politica{
     width: 300px;
-    height: 700px;
+    height: 660px;
     border: 3px solid #1C2833;
     border-radius: 5px ;
 }
 .politica1{
     margin: 4px;
     text-align: center;
-    word-spacing: 5px;
-    letter-spacing: 4px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
    
 }
 
@@ -335,7 +347,8 @@ footer a i {
     border-radius: 3px;
     font-size: 14px;
     padding: 5px;
-    width: 80%;
+   
+    margin: 4px;
 }
 .politica1 p{
     font-size: 14px;
@@ -351,20 +364,22 @@ footer a i {
     width: 120px;
     height: 20px;
     background-color: #1C2833;
-    opacity: 0.85;
+    opacity: 0.8;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 1px solid #1C2833;
     border-radius: 3px ;
     position: absolute;
-    left: 28%;
-    bottom: 5%;
+    left: 27%;
+    bottom: 95%;
 }
 .recuadrar p{
     color: white;
     font-weight:lighter;
-    font-size: 7px;
+    font-size: 10px;
+    word-spacing: 0px;
+    letter-spacing: 4px;
 }
 .rome{
     color: #252850;
@@ -395,13 +410,14 @@ hr{
 }
 .carrito p{
     color: #cdcdcd;
+    word-spacing: 0px;
+    letter-spacing: 2px;
 }
 .fa-shopping-cart{
   color: #cdcdcd;
-  font-size:20px;
   text-align: center;
   margin: 3px;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 
@@ -443,13 +459,7 @@ hr{
         main img{
             width: 240px;
         }}
-        @media all and (max-width:350px){
-          .recuadrar{
-            width: 100px;
-            height: 15px;
-            left: 27%;
-            bottom: 5%;
-        }}
+
         @media all and (min-width:500px){
             .recuadrar{
               left: 37%;
@@ -468,4 +478,10 @@ hr{
            position: inherit;
            display: inline-block;
            margin: 5px;
+          
         }
+        .politica1 a{
+            word-spacing: 0px;
+            letter-spacing: 2px;
+        }
+       

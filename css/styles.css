@@ -270,55 +270,6 @@ footer a i {
 }
 
 
-/* queries */
-@media all and (max-width:1000px){
-    .banner{
-       display: none;
-    }
-    .menu{
-        display:block; 
-    } 
-    /* .menu2{display: block;} */
-}
- @media all and (max-width:700px){
-    .top{
-           font-size: 7px;
-           word-spacing: 5px;
-           letter-spacing: 4px;
-    }
-    li:hover{
-        transform:scale(1.1);
-    }
-    li:active{
-        transform: rotate(10deg);
-    }
-    }
-    @media all and (min-width:1000px){
-        .menu-bar2{
-            display:none;
-        }
-        .carrousel{
-            display: none;
-        }
-    }
-    @media all and (max-width:340px){
-        .fa-whatsapp{
-            right: 0px;}
-        main img{
-            width: 240px;
-        }}
-        @media all and (min-width:500px){
-          .summer{
-              display: none;
-          }
-        
-        }
-        @media all and (min-width:1100px){
-            .fa-whatsapp{
-                right: 0px;
-                font-size: 50px;
-              }
-        }
 
 
 .summer{
@@ -409,4 +360,62 @@ hr{
   margin: 3px;
   font-size: 30px;
 }
+
+
+
+/* queries */
+@media all and (max-width:1000px){
+    .banner{
+       display: none;
+    }
+    .menu{
+        display:block; 
+    } 
+    /* .menu2{display: block;} */
+}
+ @media all and (max-width:700px){
+    .top{
+           font-size: 7px;
+           word-spacing: 5px;
+           letter-spacing: 4px;
+    }
+    li:hover{
+        transform:scale(1.1);
+    }
+    li:active{
+        transform: rotate(10deg);
+    }
+    }
+    @media all and (min-width:1000px){
+        .menu-bar2{
+            display:none;
+        }
+        .carrousel{
+            display: none;
+        }
+    }
+    @media all and (max-width:340px){
+        .fa-whatsapp{
+            right: 0px;}
+        main img{
+            width: 240px;
+        }}
+        @media all and (max-width:350px){
+          .recuadrar{
+            width: 100px;
+            height: 15px;
+            left: 27%;
+            bottom: 5%;
+        }}
+        @media all and (min-width:500px){
+            .recuadrar{
+              left: 37%;
+              bottom: 5%;
+          }}
+        @media all and (min-width:1100px){
+            .fa-whatsapp{
+                right: 0px;
+                font-size: 50px;
+              }
+        }
 

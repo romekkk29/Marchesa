@@ -70,7 +70,7 @@ let imgSrc=[];
  let p=document.querySelector(".ssss");
   p.addEventListener("click",myFunction);
 function myFunction(){
-  escribirHTML(listadoImagenes);
+  escribirHTML(listadoImagenes[0]);
 let cancelar=document.querySelector(".teQuiero");
  cancelar.style.display="none";
  let contenedor3=document.querySelector(".norte");
@@ -90,7 +90,6 @@ function escribirHTML(objeto) {
     for(let imagen of objeto.imgUrl){
         imgSrc.push(imagen);
     }
-    console.log(imgSrc)
     let contenedor = document.querySelector(".rome");
     const miTemplate =`
     <div class="rome2">

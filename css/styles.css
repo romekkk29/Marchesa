@@ -293,7 +293,7 @@ footer a i {
 }
 .hijaMartu{
     position: absolute;
-    left: 22%;
+    left: 30%;
     bottom: 50%;
     display: flex;
     justify-content: center;
@@ -324,20 +324,22 @@ footer a i {
 .hijaMartu2 p{
     color: white;
     font-size: 10px;
-    word-spacing: 5px;
-    letter-spacing: 4px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-weight: lighter;
 }
 .politica{
     width: 300px;
     height: 660px;
     border: 3px solid #1C2833;
     border-radius: 5px ;
+
 }
 .politica1{
     margin: 4px;
     text-align: center;
-    word-spacing: 2px;
-    letter-spacing: 1px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
    
 }
 
@@ -386,8 +388,8 @@ footer a i {
     font-weight: 500;
 }
 .descri{
-    word-spacing: 2px;
-    letter-spacing: 1px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
     color: black;
     margin:9px;
     text-align: center;
@@ -412,12 +414,13 @@ hr{
     color: #cdcdcd;
     word-spacing: 0px;
     letter-spacing: 2px;
+    font-size: 11px;
 }
 .fa-shopping-cart{
   color: #cdcdcd;
   text-align: center;
   margin: 3px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 
@@ -485,3 +488,16 @@ hr{
             letter-spacing: 2px;
         }
        
+        .texas{
+            width: 280px;
+            height: 280px;
+        }
+        .a22{
+            left:17%
+        }
+        .a33{
+            left:26%
+        }
+        .a44{
+            left:33%;
+        }

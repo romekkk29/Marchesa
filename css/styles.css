@@ -14,7 +14,7 @@ body{
 }
 /* header */
 .top {
-    background-color: #dde3dd;
+    background-color: #e8cb9a;
     padding: 3px;
     color: black;
     text-align: center;
@@ -163,7 +163,7 @@ main img{
 
 /* footer */
 footer{
-    background-color: #1C2833;
+    background-color: #e8cb9a;
     text-align: center;
     padding: 5px;
     display: flex;
@@ -171,7 +171,7 @@ footer{
     align-items: center;
 }
 footer a {
-    color: #F0F3F4;
+    color: black;
     font-size: 10px;
     text-decoration: none;
     margin: 3px;
@@ -180,7 +180,7 @@ footer a {
 }
 footer a i {
     font-size: 20px;
-    color: #F0F3F4;
+    color: black;
 }
 
 /* pantalla de incio */
@@ -235,12 +235,12 @@ footer a i {
     height:25px;
     line-height:25px;
     border-radius:50%;
-    background-color: #1C2833;
+    background-color: #e8cb9a;
     text-align:center;
     font-weight:bold;
     position:absolute;
     color: #fff;
-    box-shadow: 0 0 10px rgba(255,255,255,.6);
+    box-shadow: 0 0 10px rgba(255,255,255,.99);
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
@@ -309,12 +309,12 @@ footer a i {
 .hijaMartu2{
     width: 250px;
     height: 50px;
-    background-color: #1C2833;
-    opacity: 0.6;
+    background-color: #e8cb9a;
+    opacity: 0.99;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #1C2833;
+    border: 1px solid #e8cb9a;
     border-radius: 3px ;
 }
 .hijaMartu p{
@@ -322,7 +322,7 @@ footer a i {
      font-size: 12px;
 }
 .hijaMartu2 p{
-    color: white;
+    color: black;
     font-size: 10px;
     word-spacing: 2px;
     letter-spacing: 2px;
@@ -344,8 +344,8 @@ footer a i {
 }
 
 .politica11{
-    background-color:#1C2833 ;
-    color: #d3d3d3;
+    background-color:#d0ab7a ;
+    color: black;
     border-radius: 3px;
     font-size: 14px;
     padding: 5px;
@@ -365,21 +365,21 @@ footer a i {
 .recuadrar{
     width: 120px;
     height: 20px;
-    background-color: #1C2833;
-    opacity: 0.8;
+    background-color: #e8cb9a;
+    opacity: 0.99;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #1C2833;
+    border: 1px solid #e8cb9a;
     border-radius: 3px ;
     position: absolute;
     left: 27%;
     bottom: 95%;
 }
 .recuadrar p{
-    color: white;
+    color: black;
     font-weight:lighter;
-    font-size: 10px;
+    font-size: 9px;
     word-spacing: 0px;
     letter-spacing: 4px;
 }

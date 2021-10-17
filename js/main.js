@@ -48,7 +48,7 @@ let imgSrc=[];
   let zxyzz=document.querySelector(".stokeame");
   zxyzz.addEventListener("click",myFunction2);
 function myFunction2(){
-    if(cont==1){
+    if(cont==0){
         escribirHTML(listadoImagenes[1]);
         let cancelar=document.querySelector(".teQuiero");
          cancelar.style.display="none";
@@ -65,6 +65,60 @@ function myFunction2(){
         imagennn.style.width="260px";
         imagennn.style.height="260px";
          }
+        if (cont==1){
+            escribirHTML(listadoImagenes[2]);
+        let cancelar=document.querySelector(".teQuiero");
+         cancelar.style.display="none";
+         let contenedor3=document.querySelector(".norte");
+        carrousel(contenedor3,imgSrc) ;
+        let carrito=document.querySelector(".carrito");
+        carrito.style.display="block";
+        carrito.style.display="flex";
+        carrito.style.alignItems="center";
+        carrito.style.justifyContent="center";
+        let este=document.querySelector(".este");
+        este.style.display="none";
+        let imagennn=document.querySelector("#stockk");
+        imagennn.style.width="260px";
+        imagennn.style.height="260px";
+
+        }
+        if (cont==2){
+            escribirHTML(listadoImagenes[3]);
+        let cancelar=document.querySelector(".teQuiero");
+         cancelar.style.display="none";
+         let contenedor3=document.querySelector(".norte");
+        carrousel(contenedor3,imgSrc) ;
+        let carrito=document.querySelector(".carrito");
+        carrito.style.display="block";
+        carrito.style.display="flex";
+        carrito.style.alignItems="center";
+        carrito.style.justifyContent="center";
+        let este=document.querySelector(".este");
+        este.style.display="none";
+        let imagennn=document.querySelector("#stockk");
+        imagennn.style.width="260px";
+        imagennn.style.height="260px";
+
+        }
+        if (cont==3){
+            escribirHTML(listadoImagenes[4]);
+        let cancelar=document.querySelector(".teQuiero");
+         cancelar.style.display="none";
+         let contenedor3=document.querySelector(".norte");
+        carrousel(contenedor3,imgSrc) ;
+        let carrito=document.querySelector(".carrito");
+        carrito.style.display="block";
+        carrito.style.display="flex";
+        carrito.style.alignItems="center";
+        carrito.style.justifyContent="center";
+        let este=document.querySelector(".este");
+        este.style.display="none";
+        let imagennn=document.querySelector("#stockk");
+        imagennn.style.width="260px";
+        imagennn.style.height="260px";
+
+        }
     
    } 
 

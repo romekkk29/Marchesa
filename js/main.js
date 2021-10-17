@@ -6,7 +6,7 @@ btnMenu.addEventListener("click",function(e){
     
 })  
 
-var imagenes2= ["../img/3/gales.jpeg","../img/3/juanatacoalto.jpeg","../img/3/ojota.jpeg","../img/3/tacobajo.jpeg"]
+var imagenes2= ["img/3/gales.jpeg","img/3/juanatacoalto.jpeg","img/3/ojota.jpeg","img/3/tacobajo.jpeg"]
 
 let cont=0;
 function carrousel(contenedor,imagenes){

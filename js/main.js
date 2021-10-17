@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
     let contenedor2=document.querySelector(".este");
     carrousel(contenedor2,imagenes2);
 })
-
 let imgSrc=[];
   let zxyzz=document.querySelector(".stokeame");
   zxyzz.addEventListener("click",myFunction2);
@@ -140,6 +139,7 @@ carrito.style.justifyContent="center";
 let este=document.querySelector(".este");
 este.style.display="none";
  }
+
   
    
 function escribirHTML(objeto) {

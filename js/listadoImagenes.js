@@ -84,6 +84,12 @@ let listadoImagenes=[
         description: "Sandalias de cuero con detalles en plateado | Plataforma de 9cm | Color negro ",
         imgUrl:["img/GIULIA/principal.jpeg","img/GIULIA/1.jpg","img/GIULIA/2.jpeg","img/GIULIA/3.jpg"]
     },
+    {
+        title: "SUNNY",
+        precio: "$3100",
+        description: "Sandalias de goma inyectada  | Plataforma de 4.5cm | Color negro rosa nude naranja blanco ",
+        imgUrl:["img/SKYLA/principal.jpeg","img/SKYLA/0.jpeg","img/SKYLA/1.png","img/SKYLA/2.png","img/SKYLA/3.jpg","img/SKYLA/4.png","img/SKYLA/5.png"]
+    },
 
 ];
 

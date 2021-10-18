@@ -6,7 +6,7 @@ btnMenu.addEventListener("click",function(e){
     
 })  
 
-var imagenes2= ["img/3/gales.jpeg","img/3/juanatacoalto.jpeg","img/3/ojota.jpeg","img/3/tacobajo.jpeg"];
+var imagenes2= ["img/1/stock.jpeg","img/3/gales.jpeg","img/3/juanatacoalto.jpeg","img/3/ojota.jpeg","img/3/tacobajo.jpeg"];
 var class2=["gales","tacoalto","ojota","tacobajo"];
 let cont=0;
 function carrousel(contenedor,imagenes){
@@ -47,7 +47,7 @@ let imgSrc=[];
   let zxyzz=document.querySelector(".stokeame");
   zxyzz.addEventListener("click",myFunction2);
 function myFunction2(){
-    if(cont==0){
+    if(cont==1){
         escribirHTML(listadoImagenes[1]);
         let cancelar=document.querySelector(".teQuiero");
          cancelar.style.display="none";
@@ -64,7 +64,7 @@ function myFunction2(){
         imagennn.style.width="260px";
         imagennn.style.height="260px";
          }
-        if (cont==1){
+        if (cont==2){
             escribirHTML(listadoImagenes[2]);
         let cancelar=document.querySelector(".teQuiero");
          cancelar.style.display="none";
@@ -82,7 +82,7 @@ function myFunction2(){
         imagennn.style.height="260px";
 
         }
-        if (cont==2){
+        if (cont==3){
             escribirHTML(listadoImagenes[3]);
         let cancelar=document.querySelector(".teQuiero");
          cancelar.style.display="none";
@@ -100,7 +100,7 @@ function myFunction2(){
         imagennn.style.height="260px";
 
         }
-        if (cont==3){
+        if (cont==4){
             escribirHTML(listadoImagenes[4]);
         let cancelar=document.querySelector(".teQuiero");
          cancelar.style.display="none";

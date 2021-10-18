@@ -456,12 +456,6 @@ hr{
             display: none;
         }
     }
-    @media all and (max-width:340px){
-        .fa-whatsapp{
-            right: 0px;}
-        main img{
-            width: 240px;
-        }}
 
         @media all and (min-width:500px){
             .recuadrar{

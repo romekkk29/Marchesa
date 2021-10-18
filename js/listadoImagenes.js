@@ -42,5 +42,24 @@ let listadoImagenes=[
         description: "Sandalias de cuero vacuno con apliques | Base de goma eva de 8cm | Color negro",
         imgUrl:["img/BERRYCUERO_/principal3.jpeg","img/BERRYCUERO_/1.jpeg"]
     },
+    {
+        title: "BLOSAM",
+        precio: "$5500",
+        description: "Sandalias de cuero vacuno con apliques | Base de goma eva de 8cm | Color negro",
+        imgUrl:["img/BLOSAM/principal.jpeg","img/BLOSAM/1.jpeg","img/BLOSAM/2.jpeg","img/BLOSAM/3.jpeg"]
+    },
+    {
+        title: "SHIRA",
+        precio: "$5500",
+        description: "Sandalias de cuero vacuno con apliques | Base de goma eva de 8cm | Color negro",
+        imgUrl:["img/SHIRA/principal.jpg","img/SHIRA/1.jpg","img/SHIRA/2.jpeg"]
+    },
+    {
+        title: "CLOE",
+        precio: "$5500",
+        description: "Sandalias de cuero vacuno con apliques | Base de goma eva de 8cm | Color negro",
+        imgUrl:["img/CLOE/principal1.jpeg","img/CLOE/2.jpeg","img/CLOE/3.jpeg"]
+    },
 ];
+
     

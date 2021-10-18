@@ -1,4 +1,4 @@
-  const btnMenu= document.querySelector(".menu");
+const btnMenu= document.querySelector(".menu");
 const menu= document.querySelector(".menu-bar");
 btnMenu.addEventListener("click",function(e){
     e.preventDefault();
@@ -47,23 +47,7 @@ var imgSrc=[];
 console.log(imgSrc);
   let zxyzz=document.querySelector(".stokeame");
   zxyzz.addEventListener("click",myFunction2);
-  let positano=document.querySelector(".ssss"); 
-  positano.addEventListener("click",myFunctionPositano);
-function myFunctionPositano(){
-  escribirHTML(listadoImagenes[0]);
-
-let cancelar=document.querySelector(".teQuiero");
- cancelar.style.display="none";
- let contenedor3=document.querySelector(".norte");
-carrousel(contenedor3,imgSrc) ;
-let carrito=document.querySelector(".carrito");
-carrito.style.display="block";
-carrito.style.display="flex";
-carrito.style.alignItems="center";
-carrito.style.justifyContent="center";
-let este=document.querySelector(".este");
-este.style.display="none";
- }
+  
 
 function myFunction2(){
     if(cont==1){
@@ -157,6 +141,43 @@ function myFunction2(){
  imagennn.style.width="260px";
  imagennn.style.height="260px";
   });
+  let prueba=document.querySelector(".prueba");
+   prueba.addEventListener("click", function(){
+   escribirHTML(listadoImagenes[5]);
+ let cancelar=document.querySelector(".teQuiero");
+  cancelar.style.display="none";
+  let contenedor4=document.querySelector(".norte");
+ carrousel(contenedor4,imgSrc) ;
+ let carrito=document.querySelector(".carrito");
+ carrito.style.display="block";
+ carrito.style.display="flex";
+ carrito.style.alignItems="center";
+ carrito.style.justifyContent="center";
+ let este=document.querySelector(".este");
+ este.style.display="none";
+ let imagennn=document.querySelector(".agrandar");
+ imagennn.style.width="260px";
+ imagennn.style.height="260px";
+  });
+  let berry=document.querySelector(".berry");
+  berry.addEventListener("click", function(){
+  escribirHTML(listadoImagenes[6]);
+let cancelar=document.querySelector(".teQuiero");
+ cancelar.style.display="none";
+ let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+ });
+
 
     
 

@@ -30,5 +30,17 @@ let listadoImagenes=[
         description: "Hablemos de ese Borcego de Cuero comodín para todos los días! El Borcego Laika es de cuero liso con puño caña mediana y plataforma tap rock intermedio de goma eva y mide 6 cm.",
         imgUrl:["img/3/tacobajo.jpeg","img/3/tacobajo.jpeg"]
     },
+    {
+        title: "ASIC",
+        precio: "$4900",
+        description: "Sandalias de cuero | color negro | Plataforma: 2.5cm",
+        imgUrl:["img/ASICCUERO_/principal.jpg","img/ASICCUERO_/1.jpg","img/ASICCUERO_/2.jpg","img/ASICCUERO_/3.jpg"]
+    },
+    {
+        title: "BERRY",
+        precio: "$5500",
+        description: "Sandalias de cuero vacuno con apliques | Base de goma eva de 8cm | Color negro",
+        imgUrl:["img/BERRYCUERO_/principal3.jpeg","img/BERRYCUERO_/1.jpeg"]
+    },
 ];
     

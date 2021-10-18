@@ -90,6 +90,18 @@ let listadoImagenes=[
         description: "Sandalias de goma inyectada  | Plataforma de 4.5cm | Color negro rosa nude naranja blanco ",
         imgUrl:["img/SKYLA/principal.jpeg","img/SKYLA/0.jpeg","img/SKYLA/1.png","img/SKYLA/2.png","img/SKYLA/3.jpg","img/SKYLA/4.png","img/SKYLA/5.png"]
     },
+    {
+        title: "GRETA",
+        precio: "$4600",
+        description: "Sandalias de cuero | Plataforma de goma eva de 8cm | Color negro & nude",
+        imgUrl:["img/NANDA/principal1.jpg","img/NANDA/1.jpg","img/NANDA/2.jpg","img/NANDA/3.jpg","img/NANDA/4.jpg"]
+    },
+    {
+        title: "KALEB",
+        precio: "$4700",
+        description: "Sandalias de cuero detalles en trenza | Plataforma de 2cm | Color negro blanco suela",
+        imgUrl:["img/KALEB/principal.jpeg","img/KALEB/1.jpeg","img/KALEB/2.jpeg","img/KALEB/3.jpeg"]
+    },
 
 ];
 

@@ -423,7 +423,41 @@ hr{
   font-size: 14px;
 }
 
+.zx{
+    font-size: 17px;
+    z-index: 2312312321312312321;
+   position: inherit;
+   display: inline-block;
+   margin: 3px;
+  
+}
+.politica1 a{
+    word-spacing: 0px;
+    letter-spacing: 2px;
+}
 
+.texas{
+    width: 280px;
+    height: 280px;
+}
+.a22{
+    left:17%
+}
+.a33{
+    left:26%
+}
+.a44{
+    left:33%;
+}
+#stockk{
+    width: 160px;
+    height: 160px;
+}
+
+.teQuiero img{
+    width: 240px;
+    height: 240px;
+}
 
 /* queries */
 @media all and (max-width:1000px){
@@ -448,20 +482,45 @@ hr{
         transform: rotate(10deg);
     }
     }
+    
+    @media all and (min-width:500px){
+        .recuadrar{
+            left: 40%;
+            bottom: 96%;
+}
+.atras{
+    left:18%;
+    top:calc(50% - 5px);
+}
+.adelante{
+    right:18%;
+    top:calc(50% - 5px);
+}
+    }
     @media all and (min-width:1000px){
         .menu-bar2{
             display:none;
         }
-        .carrousel{
-            display: none;
+        .atras{
+            left:30%;
+            top:calc(50% - 5px);
         }
+        .adelante{
+            right:30%;
+            top:calc(50% - 5px);
+        }
+        .rome img:hover {transform:scale(2.0);
+                        position: relative;
+                    z-index: 21312321321312321; }  
+        .recuadrar{
+                        left: 44%;
+                        bottom: 96%;
+          }
+                 
     }
 
         @media all and (min-width:500px){
-            .recuadrar{
-              left: 37%;
-              bottom: 5%;
-          }}
+          }
         @media all and (min-width:1100px){
             .fa-whatsapp{
                 right: 0px;
@@ -469,38 +528,4 @@ hr{
               }
         }
 
-        .zx{
-            font-size: 17px;
-            z-index: 2312312321312312321;
-           position: inherit;
-           display: inline-block;
-           margin: 3px;
-          
-        }
-        .politica1 a{
-            word-spacing: 0px;
-            letter-spacing: 2px;
-        }
-       
-        .texas{
-            width: 280px;
-            height: 280px;
-        }
-        .a22{
-            left:17%
-        }
-        .a33{
-            left:26%
-        }
-        .a44{
-            left:33%;
-        }
-        #stockk{
-            width: 160px;
-            height: 160px;
-        }
-    
-        .teQuiero img{
-            width: 240px;
-            height: 240px;
-        }
+      

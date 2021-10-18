@@ -232,6 +232,78 @@ let imagennn=document.querySelector(".agrandar");
 imagennn.style.width="260px";
 imagennn.style.height="260px";
  });
+ let finni=document.querySelector(".finni");
+  finni.addEventListener("click", function(){
+  escribirHTML(listadoImagenes[10]);
+let cancelar=document.querySelector(".teQuiero");
+ cancelar.style.display="none";
+ let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+ });
+ let flaunt=document.querySelector(".flaunt");
+  flaunt.addEventListener("click", function(){
+  escribirHTML(listadoImagenes[11]);
+let cancelar=document.querySelector(".teQuiero");
+ cancelar.style.display="none";
+ let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+ });
+ let form=document.querySelector(".form");
+  form.addEventListener("click", function(){
+  escribirHTML(listadoImagenes[12]);
+let cancelar=document.querySelector(".teQuiero");
+ cancelar.style.display="none";
+ let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+ });
+ let giuli=document.querySelector(".giulia");
+  giuli.addEventListener("click", function(){
+  escribirHTML(listadoImagenes[13]);
+let cancelar=document.querySelector(".teQuiero");
+ cancelar.style.display="none";
+ let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+ });
 
 
 

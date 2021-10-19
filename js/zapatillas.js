@@ -307,25 +307,7 @@ function myFunction2(){
         }
     
    } 
-   let asic=document.querySelector(".asicc");
-   asic.addEventListener("click", function(){
-   escribirHTML(listadoImagenes[5]);
- let cancelar=document.querySelector(".teQuiero");
-  cancelar.style.display="none";
-  let contenedor3=document.querySelector(".norte");
- carrousel(contenedor3,imgSrc) ;
- let carrito=document.querySelector(".carrito");
- carrito.style.display="block";
- carrito.style.display="flex";
- carrito.style.alignItems="center";
- carrito.style.justifyContent="center";
- let este=document.querySelector(".este");
- este.style.display="none";
- let imagennn=document.querySelector(".agrandar");
- imagennn.style.width="260px";
- imagennn.style.height="260px";
-  });
-
+  
     
 
  

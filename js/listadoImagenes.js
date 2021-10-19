@@ -102,6 +102,155 @@ let listadoImagenes=[
         description: "Sandalias de cuero detalles en trenza | Plataforma de 2cm | Color negro blanco suela",
         imgUrl:["img/KALEB/principal.jpeg","img/KALEB/1.jpeg","img/KALEB/2.jpeg","img/KALEB/3.jpeg"]
     },
+    {
+        title: "WIPPEI",
+        precio: "$5300",
+        description: "Sandalias de cuero | Plataforma de 5cm Taco 7cm | Color negro & suela",
+        imgUrl:["img/WIPEI/principal.jpeg" ,"img/WIPEI/1.jpeg" ,"img/WIPEI/2.jpg"]
+    },
+    {
+        title: "SIUX",
+        precio: "$4900",
+        description: "Sandalias de cuero con apliques en plateado | Plataforma de 4cm | Color negro",
+        imgUrl:["img/SIUX/principal.jpeg" ,"img/SIUX/1.jpeg" ,"img/SIUX/2.jpeg","img/SIUX/3.jpeg"]
+    },
+    {
+        title: "PLEO",
+        precio: "$5800",
+        description: "Sandalias de cuero con apliques y hebillas | Color negro",
+        imgUrl:["img/PLEO/principal.jpeg"]
+    },
+    {
+        title: "DAFF",
+        precio: "$5100",
+        description: "Sandalias de cuero | Plataforma 5cm | Color zebra combinado con suela beige negro",
+        imgUrl:["img/DAFF/principal.PNG","img/DAFF/1.jpeg","img/DAFF/2.jpeg","img/DAFF/3.jpg","img/DAFF/4.jpeg","img/DAFF/5.png"]
+    },
+    {
+        title: "NIKKA",
+        precio: "$5300",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/NIKKA/principal.jpeg","img/NIKKA/1.jpg"]
+    },
+    {
+        title: "MALI",
+        precio: "$5600",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/MALI/principal.jpeg","img/MALI/1.jpeg","img/MALI/2.jpeg","img/MALI/3.jpg","img/MALI/4.jpg"]
+    },
+    {
+        title: "LAST",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/LAST/principal.jpeg","img/LAST/1.jpeg","img/LAST/2.jpeg"]
+    },
+    {
+        title: "KIMBER",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/KIMBERLY/principal.jpg","img/KIMBERLY/1.jpg","img/KIMBERLY/2.jpg","img/KIMBERLY/3.jpg","img/KIMBERLY/4.jpg"]
+    },
+    {
+        title: "NOSSA",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/NOSSA/principal.jpeg"]
+    },
+    {
+        title: "TOKEN",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/TOKEN/principal.jpeg","img/TOKEN/1.jpeg","img/TOKEN/2.jpeg","img/TOKEN/3.jpeg","img/TOKEN/4.jpeg","img/TOKEN/5.jpeg","img/TOKEN/5.jpeg","img/TOKEN/6.jpeg","img/TOKEN/8.jpg"]
+    },
+    {
+        title: "ATENAS",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/ATENAS/principal.jpeg"]
+    },
+    {
+        title: "COMFY",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/COMFY/principal.jpeg","img/COMFY/1.jpeg","img/COMFY/2.jpeg","img/COMFY/3.jpeg"]
+    },
+    {
+        title: "DREYA",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/DREYA/principal.jpeg","img/DREYA/1.jpeg","img/DREYA/2.jpeg"]
+    },
+    {
+        title: "TURY",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/TURY/principal.jpeg","img/TURY/1.jpeg","img/TURY/2.jpeg","img/TURY/3.jpeg","img/TURY/4.jpeg","img/TURY/5.jpg","img/TURY/6.jpg"]
+    },
+    {
+        title: "RICH",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/RICH/principal.jpeg","img/RICH/1.jpeg"]
+    },
+    {
+        title: "PAXXY",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/PAXXY/principal.jpeg","img/PAXXY/1.jpg","img/PAXXY/2.jpeg"]
+    },
+    {
+        title: "RENNI",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/RENI/principal.jpeg","img/RENI/1.jpeg","img/RENI/2.jpeg","img/RENI/3.jpg"]
+    },
+    {
+        title: "NEST",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/NEST/principal.jpeg","img/NEST/1.jpg","img/NEST/2.jpg","img/NEST/3.jpeg"]
+    },
+    {
+        title: "MASOL",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/MASOL/PRINCIPAL.jpeg","img/MASOL/2DA.jpeg","img/MASOL/3RA.jpeg","img/MASOL/4TA.jpeg"]
+    },
+    {
+        title: "FISHER",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/FISHER/principal.JPG","img/FISHER/1.JPEG","img/FISHER/2.JPG","img/FISHER/3.JPEG"]
+    },
+    {
+        title: "EVIAL",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/EVIAL/principal.jpeg","img/EVIAL/1.jpeg","img/EVIAL/2.jpeg","img/EVIAL/3.jpg"]
+    },
+    {
+        title: "DRUNA",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/DRUNA/principal.jpeg","img/DRUNA/1.jpeg"]
+    },
+    {
+        title: "BRUSEL",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/BRUSEL/principal.jpeg","img/BRUSEL/1.jpg","img/BRUSEL/2.jpg"]
+    },
+    {
+        title: "CLASSA",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/CLASSA/principal.JPG","img/CLASSA/1.JPG","img/CLASSA/2.JPG","img/CLASSA/3.JPG","img/CLASSA/4.JPG"]
+    },
+
+
+
+
+
 
 ];
 

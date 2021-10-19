@@ -64,7 +64,7 @@ let listadoImagenes=[
         title: "FINNI",
         precio: "$4600",
         description: "Sandalias de cuero | Base de goma eva de 4cm | Color negro blanco print ",
-        imgUrl:["img/FINNI/4.JPG","img/FINNI/principal1.jpg","img/FINNI/1.jpeg","img/FINNI/2.jpeg","img/FINNI/3.jpeg"]
+        imgUrl:["img/FINNI/4.jpg","img/FINNI/principal1.jpg","img/FINNI/1.jpeg","img/FINNI/2.jpeg","img/FINNI/3.jpeg"]
     },
     {
         title: "FLAUNT",
@@ -220,7 +220,7 @@ let listadoImagenes=[
         title: "FISHER",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/FISHER/principal.JPG","img/FISHER/1.JPEG","img/FISHER/2.JPG","img/FISHER/3.JPEG"]
+        imgUrl:["img/FISHER/principal.JPG","img/FISHER/1.jpeg","img/FISHER/2.jpg","img/FISHER/3.jpeg"]
     },
     {
         title: "EVIAL",
@@ -244,19 +244,19 @@ let listadoImagenes=[
         title: "CLASSA",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/CLASSA/principal.JPG","img/CLASSA/1.JPG","img/CLASSA/2.JPG","img/CLASSA/3.JPG","img/CLASSA/4.JPG"]
+        imgUrl:["img/CLASSA/principal.JPG","img/CLASSA/1.jpg","img/CLASSA/2.jpg","img/CLASSA/3.jpg","img/CLASSA/4.jpg"]
     },
     {
         title: "ABRU",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/ABRU/principal.PNG","img/ABRU/1.jpg","img/ABRU/2.PNG","img/ABRU/3.PNG","img/ABRU/4.PNG"]
+        imgUrl:["img/ABRU/principal.PNG","img/ABRU/1.jpg","img/ABRU/2.png","img/ABRU/3.png","img/ABRU/4.png"]
     },
     {
         title: "CANDY",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/CANDY/principal.JPG","img/CANDY/1.JPG"]
+        imgUrl:["img/CANDY/principal.jpg","img/CANDY/1.jpg"]
     },
     {
         title: "CEBRAL",
@@ -280,19 +280,19 @@ let listadoImagenes=[
         title: "FIND",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/FIND/principal.JPG","img/FIND/1.JPG","img/FIND/2.JPG"]
+        imgUrl:["img/FIND/principal.JPG","img/FIND/1.jpg","img/FIND/2.jpg"]
     },
     {
         title: "KYLIE",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/KYLIE/principal.PNG","img/KYLIE/1.jpeg","img/KYLIE/2.jpeg","img/KYLIE/3.jpg","img/KYLIE/4.jpg"]
+        imgUrl:["img/KYLIE/principal.PNG","img/KYLIE/1.jpeg","img/KYLIE/2.jpeg","img/KYLIE/3.jpg","img/KYLIE/4.JPG"]
     },
     {
         title: "LELE",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/LELE/principal.JPG","img/LELE/1.JPEG"]
+        imgUrl:["img/LELE/principal.JPG","img/LELE/1.jpeg"]
     },
     {
         title: "MARIV",

@@ -246,6 +246,73 @@ let listadoImagenes=[
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
         imgUrl:["img/CLASSA/principal.JPG","img/CLASSA/1.JPG","img/CLASSA/2.JPG","img/CLASSA/3.JPG","img/CLASSA/4.JPG"]
     },
+    {
+        title: "ABRU",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/ABRU/principal.PNG","img/ABRU/1.jpg","img/ABRU/2.PNG","img/ABRU/3.PNG","img/ABRU/4.PNG"]
+    },
+    {
+        title: "CANDY",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/CANDY/principal.JPG","img/CANDY/1.JPG"]
+    },
+    {
+        title: "CEBRAL",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/CEBRAL/principal.PNG","img/CEBRAL/1.PNG","img/CEBRAL/2.PNG"]
+    },
+    {
+        title: "CRANT",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/CRANT/prinpal1.png","img/CRANT/principal.png","img/CRANT/1.png"]
+    },
+    {
+        title: "ERAZ",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/ERAZ/principal.PNG","img/ERAZ/1.PNG","img/ERAZ/2.PNG"]
+    },
+    {
+        title: "FIND",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/FIND/principal.JPG","img/FIND/1.JPG","img/FIND/2.JPG"]
+    },
+    {
+        title: "KYLIE",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/KYLIE/principal.PNG","img/KYLIE/1.jpeg","img/KYLIE/2.jpeg","img/KYLIE/3.jpg","img/KYLIE/4.jpg"]
+    },
+    {
+        title: "LELE",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/LELE/principal.JPG","img/LELE/1.JPEG"]
+    },
+    {
+        title: "MARIV",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/MARIV/principal.jpeg","img/MARIV/1.jpeg","img/MARIV/2.jpeg","img/MARIV/3.jpg","img/MARIV/4.jpeg"]
+    },
+    {
+        title: "TRONI",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/troni/principal.jpeg" ,"img/troni/1.jpg","img/troni/2.jpg","img/troni/3.jpg"]
+    },
+    {
+        title: "LUBA",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/LUBA/1.jpg","img/LUBA/2.jpg","img/LUBA/3.jpg"]
+    },
+
 
 
 

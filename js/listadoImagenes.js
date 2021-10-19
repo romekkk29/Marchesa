@@ -94,7 +94,7 @@ let listadoImagenes=[
         title: "GRETA",
         precio: "$4600",
         description: "Sandalias de cuero | Plataforma de goma eva de 8cm | Color negro & nude",
-        imgUrl:["img/NANDA/principal1.jpg","img/NANDA/1.jpg","img/NANDA/2.jpg","img/NANDA/3.jpg","img/NANDA/4.jpg"]
+        imgUrl:["img/NANDA/principal1.jpg","img/NANDA/1.jpg","img/NANDA/2.JPG","img/NANDA/3.jpg","img/NANDA/4.jpg"]
     },
     {
         title: "KALEB",
@@ -312,6 +312,32 @@ let listadoImagenes=[
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
         imgUrl:["img/LUBA/1.jpg","img/LUBA/2.jpg","img/LUBA/3.jpg"]
     },
+    {
+        title: "AGAVE",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/AGAVE/principal.jpg","img/AGAVE/1.jpg"]
+    },
+    {
+        title: "BATTLO",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/BATTLO/principal1.jpg" ,"img/BATTLO/1.jpeg","img/BATTLO/2.jpeg","img/BATTLO/3.jpg"  ]
+    },
+    {
+        title: "JUDY",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/JUDY/principal.jpeg" ,"img/JUDY/1.jpeg","img/JUDY/2.jpeg","img/JUDY/3.jpeg","img/JUDY/4.jpeg","img/JUDY/5.jpg","img/JUDY/6.jpg"]
+    },
+    {
+        title: "YUKY",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/YUKY/principal.JPG" ,"img/YUKY/1.jpg","img/YUKY/2.jpeg","img/YUKY/3.jpeg","img/YUKY/4.jpg","img/YUKY/5.jpg"]
+    },
+    
+
 
 
 

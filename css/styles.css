@@ -111,7 +111,7 @@ li:active{
     position: fixed;
     background-color: white;
     text-align: left;
-    height: 55%;
+    height: 60%;
     z-index: 23000000000;
 }
 .isactive{
@@ -517,6 +517,13 @@ hr{
                         bottom: 96%;
           }
                  
+    }
+    .guiatalle{
+        width: 290px;
+        height: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
         @media all and (min-width:500px){

@@ -8,26 +8,26 @@ let listadoImagenes=[
  
     {
         title: "GALES",
-        precio: "$4000",
-        description: "Hablemos de ese Borcego de Cuero comodín para todos los días! El Borcego Laika es de cuero liso con puño caña mediana y plataforma tap rock intermedio de goma eva y mide 6 cm.",
+        precio: "$4500 Ef",
+        description: "Precio $6200 - 25% OFF | Botas caña alta 100% cuero | Numero 37 sin reingreso",
         imgUrl:["img/3/gales.jpeg","img/3/gales.jpeg"]
     },    
     {
-        title: "TACOALTO",
-        precio: "$4000",
-        description: "Hablemos de ese Borcego de Cuero comodín para todos los días! El Borcego Laika es de cuero liso con puño caña mediana y plataforma tap rock intermedio de goma eva y mide 6 cm.",
+        title: "GIN",
+        precio: "$2800",
+        description: "Sandalias cuero | Taco 15cm | Color negro | Numero 37 sin reingreso",
         imgUrl:["img/3/juanatacoalto.jpeg","img/3/juanatacoalto.jpeg"]
     },
     {
-        title: "OJOTA",
-        precio: "$4000",
-        description: "Hablemos de ese Borcego de Cuero comodín para todos los días! El Borcego Laika es de cuero liso con puño caña mediana y plataforma tap rock intermedio de goma eva y mide 6 cm.",
+        title: "MALI WHITE",
+        precio: "$2300",
+        description: "Capellada de cuero | Base de goma eva | Plataforma 2cm | Color blanco | Numero 38 sin reingreso",
         imgUrl:["img/3/ojota.jpeg","img/3/ojota.jpeg"]
     },
     {
-        title: "TACOBAJO",
-        precio: "$4000",
-        description: "Hablemos de ese Borcego de Cuero comodín para todos los días! El Borcego Laika es de cuero liso con puño caña mediana y plataforma tap rock intermedio de goma eva y mide 6 cm.",
+        title: "UMA BLACK",
+        precio: "$2800",
+        description: "Capellada de cuero | Taco 6cm | Color negro | Numero 37 sin reingreso.",
         imgUrl:["img/3/tacobajo.jpeg","img/3/tacobajo.jpeg"]
     },
     {
@@ -88,7 +88,7 @@ let listadoImagenes=[
         title: "SUNNY",
         precio: "$3100",
         description: "Sandalias de goma inyectada  | Plataforma de 4.5cm | Color negro rosa nude naranja blanco ",
-        imgUrl:["img/SKYLA/principal.jpeg","img/SKYLA/0.jpeg","img/SKYLA/1.png","img/SKYLA/2.png","img/SKYLA/3.jpg","img/SKYLA/4.png","img/SKYLA/5.png"]
+        imgUrl:["img/SKYLA/principal.jpeg","img/SKYLA/0.jpeg","img/SKYLA/1.png","img/SKYLA/2.png","img/SKYLA/3.jpg"]
     },
     {
         title: "GRETA",
@@ -116,14 +116,14 @@ let listadoImagenes=[
     },
     {
         title: "PLEO",
-        precio: "$5800",
+        precio: "$4800",
         description: "Sandalias de cuero con apliques y hebillas | Color negro",
         imgUrl:["img/PLEO/principal.jpeg"]
     },
     {
         title: "DAFF",
         precio: "$5100",
-        description: "Sandalias de cuero | Plataforma 5cm | Color zebra combinado con suela beige negro",
+        description: "Sandalias de cuero | Plataforma 5cm | Capellada zebra, combinado con color suela beige negro",
         imgUrl:["img/DAFF/principal.PNG","img/DAFF/1.jpeg","img/DAFF/2.jpeg","img/DAFF/3.jpg","img/DAFF/4.jpeg","img/DAFF/5.png"]
     },
     {
@@ -135,25 +135,25 @@ let listadoImagenes=[
     {
         title: "MALI",
         precio: "$5600",
-        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        description: "Sandalias de cuero con detalle en taco | Color negro & nude",
         imgUrl:["img/MALI/principal.jpeg","img/MALI/1.jpeg","img/MALI/2.jpeg","img/MALI/3.jpg","img/MALI/4.jpg"]
     },
     {
         title: "LAST",
-        precio: "$5100",
-        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        precio: "$4900",
+        description: "Sandalias de cuero con tachas | Plataforma 6cm | Color negro",
         imgUrl:["img/LAST/principal.jpeg","img/LAST/1.jpeg","img/LAST/2.jpeg"]
     },
     {
         title: "KIMBER",
-        precio: "$5100",
-        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        precio: "$4150",
+        description: "Sandalias de cuero | Taco 6cm | Color negro & nude",
         imgUrl:["img/KIMBERLY/principal.jpg","img/KIMBERLY/1.jpg","img/KIMBERLY/2.jpg","img/KIMBERLY/3.jpg","img/KIMBERLY/4.jpg"]
     },
     {
         title: "NOSSA",
-        precio: "$5100",
-        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        precio: "$4900",
+        description: "Sandalias de cuero con capellada print | Plataforma 9cm | Color negro",
         imgUrl:["img/NOSSA/principal.jpeg"]
     },
     {
@@ -172,7 +172,7 @@ let listadoImagenes=[
         title: "COMFY",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/COMFY/principal.jpeg","img/COMFY/1.jpeg","img/COMFY/2.jpeg","img/COMFY/3.jpeg"]
+        imgUrl:["img/COMFY/principal.jpeg","img/COMFY/2.jpeg"]
     },
     {
         title: "DREYA",
@@ -220,7 +220,7 @@ let listadoImagenes=[
         title: "FISHER",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/FISHER/principal.JPG","img/FISHER/1.jpeg","img/FISHER/2.jpg","img/FISHER/3.jpeg"]
+        imgUrl:["img/sn3/1.jpeg","img/sn3/3.jpeg"]
     },
     {
         title: "EVIAL",
@@ -244,7 +244,7 @@ let listadoImagenes=[
         title: "CLASSA",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/CLASSA/principal.JPG","img/CLASSA/1.jpg","img/CLASSA/2.jpg","img/CLASSA/3.jpg","img/CLASSA/4.jpg"]
+        imgUrl:["img/sn2/4.jpeg","img/sn2/1.jpeg","img/sn2/2.jpeg","img/sn2/3.jpeg","img/sn2/5.jpeg"]
     },
     {
         title: "ABRU",
@@ -256,7 +256,7 @@ let listadoImagenes=[
         title: "CANDY",
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/CANDY/principal.jpg","img/CANDY/1.jpg"]
+        imgUrl:["img/CANDY/principal.JPG","img/CANDY/1.jpg"]
     },
     {
         title: "CEBRAL",
@@ -335,6 +335,66 @@ let listadoImagenes=[
         precio: "$5100",
         description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
         imgUrl:["img/YUKY/principal.JPG" ,"img/YUKY/1.jpg","img/YUKY/2.jpeg","img/YUKY/3.jpeg","img/YUKY/4.jpg","img/YUKY/5.jpg"]
+    },
+    {
+        title: "SinNombre",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sinNombre/1.jpeg" ,"img/sinNombre/2.jpeg"]
+    },
+    {
+        title: "sn4",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sn4/1.jpeg","img/sn4/2.jpeg"]
+    },
+    {
+        title: "sn5",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sn5/1.jpeg","img/sn5/2.jpeg"]
+    },
+    {
+        title: "sn6",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sn6/2.jpeg","img/sn6/1.jpeg"]
+    },
+    {
+        title: "sn7",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sn7/1.jpeg","img/sn7/2.jpeg"]
+    },
+    {
+        title: "sn8",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sn8/1.jpeg","img/sn8/2.jpeg"]
+    },
+    {
+        title: "sn9",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sn9/1.jpeg","img/sn9/2.jpeg","img/sn9/3.jpeg"]
+    },
+    {
+        title: "sn10",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sn10/1.jpeg","img/sn10/2.jpeg"]
+    },
+    {
+        title: "sn11",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sn11/1.jpeg","img/sn11/2.jpeg","img/sn11/3.jpeg","img/sn11/4.jpeg","img/sn11/5.jpeg"]
+    },
+    {
+        title: "sn12",
+        precio: "$5100",
+        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
+        imgUrl:["img/sn12/1.jpeg","img/sn12/2.jpeg","img/sn12/3.jpeg","img/sn12/4.jpeg","img/sn12/5.jpeg","img/sn12/6.jpeg","img/sn12/7.jpeg"]
     },
     
 

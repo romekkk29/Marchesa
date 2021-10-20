@@ -6,8 +6,8 @@ btnMenu.addEventListener("click",function(e){
     
 })  
 
-var imagenes2= ["img/1/stock.jpeg","img/3/gales.jpeg","img/3/juanatacoalto.jpeg","img/3/ojota.jpeg","img/3/tacobajo.jpeg"];
-var class2=["gales","tacoalto","ojota","tacobajo"];
+var imagenes2= ["img/1/stock.jpeg","img/3/gales.jpeg","img/3/juanatacoalto.jpeg","img/3/ojota.jpeg","img/3/tacobajo.jpeg","img/SKYLA/principal.jpeg"];
+
 let cont=0;
 function carrousel(contenedor,imagenes){
     contenedor.addEventListener("click", e => {
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     carrousel(contenedor2,imagenes2);
 })
 var imgSrc=[];
-console.log(imgSrc);
+
   let zxyzz=document.querySelector(".stokeame");
   zxyzz.addEventListener("click",myFunction2);
   
@@ -66,6 +66,10 @@ function myFunction2(){
         let imagennn=document.querySelector("#stockk");
         imagennn.style.width="260px";
         imagennn.style.height="260px";
+        let botones=document.querySelector(".atras");
+        botones.style.display="none";
+        let botoness=document.querySelector(".adelante");
+        botoness.style.display="none"
          }
         if (cont==2){
             escribirHTML(listadoImagenes[2]);
@@ -83,6 +87,10 @@ function myFunction2(){
         let imagennn=document.querySelector("#stockk");
         imagennn.style.width="260px";
         imagennn.style.height="260px";
+        let botones=document.querySelector(".atras");
+        botones.style.display="none";
+        let botoness=document.querySelector(".adelante");
+        botoness.style.display="none"
 
         }
         if (cont==3){
@@ -101,6 +109,10 @@ function myFunction2(){
         let imagennn=document.querySelector("#stockk");
         imagennn.style.width="260px";
         imagennn.style.height="260px";
+        let botones=document.querySelector(".atras");
+        botones.style.display="none";
+        let botoness=document.querySelector(".adelante");
+        botoness.style.display="none"
 
         }
         if (cont==4){
@@ -119,6 +131,32 @@ function myFunction2(){
         let imagennn=document.querySelector("#stockk");
         imagennn.style.width="260px";
         imagennn.style.height="260px";
+        let botones=document.querySelector(".atras");
+        botones.style.display="none";
+        let botoness=document.querySelector(".adelante");
+        botoness.style.display="none"
+
+        }
+        if (cont==5){
+            escribirHTML(listadoImagenes[0]);
+        let cancelar=document.querySelector(".teQuiero");
+         cancelar.style.display="none";
+         let contenedor3=document.querySelector(".norte");
+        carrousel(contenedor3,imgSrc) ;
+        let carrito=document.querySelector(".carrito");
+        carrito.style.display="block";
+        carrito.style.display="flex";
+        carrito.style.alignItems="center";
+        carrito.style.justifyContent="center";
+        let este=document.querySelector(".este");
+        este.style.display="none";
+        let imagennn=document.querySelector("#stockk");
+        imagennn.style.width="260px";
+        imagennn.style.height="260px";
+        let botones=document.querySelector(".atras");
+        botones.style.display="none";
+        let botoness=document.querySelector(".adelante");
+        botoness.style.display="none"
 
         }
     
@@ -613,24 +651,7 @@ imagennn.style.width="260px";
 imagennn.style.height="260px";
 });
 
-let paxxy=document.querySelector(".paxxy");
-paxxy.addEventListener("click", function(){
-escribirHTML(listadoImagenes[32]);
-let cancelar=document.querySelector(".teQuiero");
-cancelar.style.display="none";
-let contenedor4=document.querySelector(".norte");
-carrousel(contenedor4,imgSrc) ;
-let carrito=document.querySelector(".carrito");
-carrito.style.display="block";
-carrito.style.display="flex";
-carrito.style.alignItems="center";
-carrito.style.justifyContent="center";
-let este=document.querySelector(".este");
-este.style.display="none";
-let imagennn=document.querySelector(".agrandar");
-imagennn.style.width="260px";
-imagennn.style.height="260px";
-});
+
 let renni=document.querySelector(".renni");
 renni.addEventListener("click", function(){
 escribirHTML(listadoImagenes[33]);
@@ -901,6 +922,7 @@ let imagennn=document.querySelector(".agrandar");
 imagennn.style.width="260px";
 imagennn.style.height="260px";
 });
+
 let sn9=document.querySelector(".sn9");
 sn9.addEventListener("click", function(){
 escribirHTML(listadoImagenes[62]);

@@ -64,7 +64,7 @@ let listadoImagenes=[
         title: "FINNI",
         precio: "$4600",
         description: "Sandalias de cuero | Base de goma eva de 4cm | Color negro blanco print ",
-        imgUrl:["img/FINNI/4.jpg","img/FINNI/principal1.jpg","img/FINNI/1.jpeg","img/FINNI/2.jpeg","img/FINNI/3.jpeg"]
+        imgUrl:["img/FINNI/4.JPG","img/FINNI/principal1.jpg","img/FINNI/1.jpeg","img/FINNI/2.jpeg","img/FINNI/3.jpeg"]
     },
     {
         title: "FLAUNT",

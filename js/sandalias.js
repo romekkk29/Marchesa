@@ -5,7 +5,7 @@ btnMenu.addEventListener("click",function(e){
     menu.classList.toggle("isactive");
     
 })  
-
+    let confirma=confirm("¿queres verlo con musica?");
 var imagenes2= ["img/1/stock.jpeg","img/3/gales.jpeg","img/3/juanatacoalto.jpeg","img/3/ojota.jpeg","img/3/tacobajo.jpeg","img/SKYLA/principal.jpeg"];
 
 let cont=0;

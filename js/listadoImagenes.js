@@ -1,3 +1,4 @@
+
 let listadoImagenes=[
     {
         title: "SUNNY",
@@ -394,7 +395,7 @@ let listadoImagenes=[
         title: "IBIZA",
         precio: "$3500",
         description: "Sandalias de gamuza |  Color negro nude fucsia rojo",
-        imgUrl:["img/sn12/1.jpeg","img/sn12/2.jpeg","img/sn12/3.jpeg","img/sn12/4.jpeg","img/sn12/5.jpeg","img/sn12/6.jpeg","img/sn12/7.jpeg"]
+        imgUrl:["img/sn12/1.jpeg","img/sn12/2.jpeg","img/sn12/3.jpeg","img/sn12/4.jpeg"]
     },
     
 ];

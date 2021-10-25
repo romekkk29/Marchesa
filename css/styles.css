@@ -549,3 +549,15 @@ hr{
             width: 100px;
             height: 40px;
     }
+ #acaNombre{
+    word-spacing: 0px;
+    letter-spacing: 0px;
+ }
+ .fa-smile-beam{
+     font-size: 20px;
+ }
+ form{
+      text-align: center;
+      word-spacing: 0px;
+      letter-spacing: 0px;
+ }

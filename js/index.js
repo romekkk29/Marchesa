@@ -162,60 +162,6 @@ function myFunction2(){
     
    } 
 
-let battlo=document.querySelector(".battlo");
-battlo.addEventListener("click", function(){
-escribirHTML(listadoImagenes[53]);
-let cancelar=document.querySelector(".teQuiero");
-cancelar.style.display="none";
-let contenedor4=document.querySelector(".norte");
-carrousel(contenedor4,imgSrc) ;
-let carrito=document.querySelector(".carrito");
-carrito.style.display="block";
-carrito.style.display="flex";
-carrito.style.alignItems="center";
-carrito.style.justifyContent="center";
-let este=document.querySelector(".este");
-este.style.display="none";
-let imagennn=document.querySelector(".agrandar");
-imagennn.style.width="260px";
-imagennn.style.height="260px";
-});
-let judy=document.querySelector(".judy");
-judy.addEventListener("click", function(){
-escribirHTML(listadoImagenes[54]);
-let cancelar=document.querySelector(".teQuiero");
-cancelar.style.display="none";
-let contenedor4=document.querySelector(".norte");
-carrousel(contenedor4,imgSrc) ;
-let carrito=document.querySelector(".carrito");
-carrito.style.display="block";
-carrito.style.display="flex";
-carrito.style.alignItems="center";
-carrito.style.justifyContent="center";
-let este=document.querySelector(".este");
-este.style.display="none";
-let imagennn=document.querySelector(".agrandar");
-imagennn.style.width="260px";
-imagennn.style.height="260px";
-});
-let yuky=document.querySelector(".yuky");
-yuky.addEventListener("click", function(){
-escribirHTML(listadoImagenes[55]);
-let cancelar=document.querySelector(".teQuiero");
-cancelar.style.display="none";
-let contenedor4=document.querySelector(".norte");
-carrousel(contenedor4,imgSrc) ;
-let carrito=document.querySelector(".carrito");
-carrito.style.display="block";
-carrito.style.display="flex";
-carrito.style.alignItems="center";
-carrito.style.justifyContent="center";
-let este=document.querySelector(".este");
-este.style.display="none";
-let imagennn=document.querySelector(".agrandar");
-imagennn.style.width="260px";
-imagennn.style.height="260px";
-});
 
 
 
@@ -267,3 +213,36 @@ function escribirHTML(objeto) {
 
 
 
+let rome=localStorage.getItem("nombre2");
+if(rome==undefined){
+    let body= document.querySelector("main");
+    body.style.display="none";
+    let carru= document.querySelector(".carrousel");
+    carru.style.display="none";
+    let banne= document.querySelector(".banner");
+    banne.style.display="none";
+    let formulario = document.querySelector("form");
+    formulario.addEventListener("submit", function(event) {
+    event.preventDefault();
+    var nombre = document.getElementById("nombreF").value;
+    localStorage.setItem("nombre2",nombre);
+    location.reload();
+    console.log(rome);
+})
+
+} else{
+    let formulario = document.querySelector("form");
+    formulario.style.display="none";
+    escribirNombre();
+    alert("para disfrutar el momento "+rome+", te recomendamos ir a MUSIC que esta al fondo de la pagina principal, y del spotify de tu celular escuchar la playist de marchesa")
+}
+function escribirNombre(){
+    let contenedor = document.querySelector("#acaNombre");
+    const miTemplate =`
+    <br>
+    <p>Hola ${rome}  <i class="fas fa-smile-beam"></i> !</p>
+    <br>
+    
+    `;
+    contenedor.innerHTML += miTemplate;
+} 

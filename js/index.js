@@ -234,7 +234,7 @@ if(rome==undefined){
     let formulario = document.querySelector("form");
     formulario.style.display="none";
     escribirNombre();
-    alert("para disfrutar el momento "+rome+", te recomendamos ir a MUSIC que esta al fondo de la pagina principal, y del spotify de tu celular escuchar la playist de marchesa")
+    alert("Para disfrutar el momento "+rome+"!, te recomendamos ir a MUSIC que esta al fondo de la pagina principal, y del spotify de tu celular escuchar la playist de marchesa :)")
 }
 function escribirNombre(){
     let contenedor = document.querySelector("#acaNombre");

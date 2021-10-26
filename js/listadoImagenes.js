@@ -314,10 +314,10 @@ let listadoImagenes=[
         imgUrl:["img/LUBA/1.jpg","img/LUBA/2.jpg","img/LUBA/3.jpg"]
     },
     {
-        title: "AGAVE",
-        precio: "$5100",
-        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:[]
+        title: "MALIBU",
+        precio: "$3000",
+        description: "Super tendencia para este verano| Sandalias de goma inyectada | Color negro chocolate naranja rosado verde pastel",
+        imgUrl:["img/malibu/2.jpeg","img/malibu/1.jpeg","img/malibu/3.jpeg"]
     },
     {
         title: "BATTLO",

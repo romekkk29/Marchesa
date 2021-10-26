@@ -161,49 +161,40 @@ function myFunction2(){
         }
     
    } 
-
-
-
-
- 
-
-let noHay= document.querySelector("#noHay");
-noHay.addEventListener("click",function(e){
-   e.preventDefault();
-    swal(" ¡ cooming soon !");
- 
+   let winter= document.querySelector("#invierno");
+   winter.addEventListener("click",function(e){
+      e.preventDefault();
+       swal(" ¡ wait for the winter season !");
+    
+      
+   })
+   let winter1= document.querySelector("#invierno1");
+   winter1.addEventListener("click",function(e){
+      e.preventDefault();
+       swal(" ¡ wait for the winter season !");
+    
+      
+   })
    
-})
-let noHay1= document.querySelector("#noHay1");
-noHay1.addEventListener("click",function(e){
-   e.preventDefault();
-    swal(" ¡ cooming soon !");
- 
-   
-})
 
-let winter= document.querySelector("#invierno");
-winter.addEventListener("click",function(e){
-   e.preventDefault();
-    swal(" ¡ wait for the winter season !");
- 
-   
-})
-let winter1= document.querySelector("#invierno1");
-winter1.addEventListener("click",function(e){
-   e.preventDefault();
-    swal(" ¡ wait for the winter season !");
- 
-   
-})
+   let noHay= document.querySelector("#noHay");
+   noHay.addEventListener("click",function(e){
+      e.preventDefault();
+       swal(" ¡ cooming soon !");
+    
+      
+   })
+   let noHay1= document.querySelector("#noHay1");
+   noHay1.addEventListener("click",function(e){
+      e.preventDefault();
+       swal(" ¡ cooming soon !");
+    
+      
+   })
 
-let noHayy= document.querySelector(".noHay");
-noHayy.addEventListener("click",function(e){
-   e.preventDefault();
-    swal(" ¡ cooming soon !");
- 
-   
-})
+
+
+
  
 
     
@@ -247,36 +238,3 @@ function escribirHTML(objeto) {
 
 
 
-let rome=localStorage.getItem("nombre2");
-if(rome==undefined){
-    let body= document.querySelector("main");
-    body.style.display="none";
-    let carru= document.querySelector(".carrousel");
-    carru.style.display="none";
-    let banne= document.querySelector(".banner");
-    banne.style.display="none";
-    let formulario = document.querySelector("form");
-    formulario.addEventListener("submit", function(event) {
-    event.preventDefault();
-    var nombre = document.getElementById("nombreF").value;
-    localStorage.setItem("nombre2",nombre);
-    location.reload();
-    console.log(rome);
-})
-
-} else{
-    let formulario = document.querySelector("form");
-    formulario.style.display="none";
-    escribirNombre();
-    swal("Queremos que disfrutes tu visita con nosotros, asi que "+rome+" haz click en MUSIC para esuchar nuestra playlist desde tu spotify :)")
-}
-function escribirNombre(){
-    let contenedor = document.querySelector("#acaNombre");
-    const miTemplate =`
-    <br>
-    <p>Hola ${rome}  <i class="fas fa-smile-beam"></i> !</p>
-    <br>
-    
-    `;
-    contenedor.innerHTML += miTemplate;
-} 

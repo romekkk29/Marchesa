@@ -161,7 +161,36 @@ function myFunction2(){
         }
     
    } 
-
+   let winter= document.querySelector("#invierno");
+   winter.addEventListener("click",function(e){
+      e.preventDefault();
+       swal(" ¡ wait for the winter season !");
+    
+      
+   })
+   let winter1= document.querySelector("#invierno1");
+   winter1.addEventListener("click",function(e){
+      e.preventDefault();
+       swal(" ¡ wait for the winter season !");
+    
+      
+   })
+   
+let noHay= document.querySelector("#noHay");
+noHay.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡ cooming soon !");
+ 
+   
+})
+let noHay1= document.querySelector("#noHay1");
+noHay1.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡ cooming soon !");
+ 
+   
+})
+   
 let battlo=document.querySelector(".battlo");
 battlo.addEventListener("click", function(){
 escribirHTML(listadoImagenes[53]);

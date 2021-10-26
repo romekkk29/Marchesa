@@ -41,13 +41,13 @@ let listadoImagenes=[
         title: "BERRY",
         precio: "$5500",
         description: "Sandalias de cuero vacuno con apliques | Base de goma eva de 8cm | Color negro",
-        imgUrl:["img/BERRYCUERO_/principal3.jpeg","img/BERRYCUERO_/1.jpeg"]
+        imgUrl:["img/BERRYCUERO_/principal3.jpg","img/BERRYCUERO_/1.jpeg","img/BERRYCUERO_/2.jpg"]
     },
     {
         title: "BLOSAM",
         precio: "$5100",
         description: "Sandalias de cuero | Base de goma eva de 8cm | Color negro & blanco",
-        imgUrl:["img/BLOSAM/principal.jpeg","img/BLOSAM/1.jpeg","img/BLOSAM/2.jpeg","img/BLOSAM/3.jpeg"]
+        imgUrl:["img/BLOSAM/principal.jpg","img/BLOSAM/1.jpg","img/BLOSAM/2.jpg","img/BLOSAM/3.jpg"]
     },
     {
         title: "SHIRA",
@@ -59,7 +59,7 @@ let listadoImagenes=[
         title: "CLOE",
         precio: "$4900",
         description: "Sandalias de cuero con apliques en color plateado | Plataforma de 5cm Taco 6.5cm | Color negro",
-        imgUrl:["img/FINNI/4.jpg","img/CLOE/principal1.jpeg","img/CLOE/2.jpeg","img/CLOE/3.jpeg"]
+        imgUrl:["img/CLOE/principal1.jpg","img/CLOE/2.jpg","img/CLOE/3.jpg"]
     },
     {
         title: "FINNI",
@@ -77,7 +77,7 @@ let listadoImagenes=[
         title: "FORM",
         precio: "$4600",
         description: "Sandalias de cuero en colores pastel | Base de 2.5cm | Color negro nude lila rosa blanco ",
-        imgUrl:["img/FORMYVEGAN/principal1.jpeg","img/FORMYVEGAN/1.jpg","img/FORMYVEGAN/2.jpg","img/FORMYVEGAN/3.jpeg","img/FORMYVEGAN/4.jpeg","img/FORMYVEGAN/5.jpeg","img/FORMYVEGAN/6.jpeg","img/FORMYVEGAN/7.jpeg","img/FORMYVEGAN/8.jpeg"]
+        imgUrl:["img/FORMYVEGAN/principal1.jpeg","img/FORMYVEGAN/1.jpg","img/FORMYVEGAN/2.jpg","img/FORMYVEGAN/3.jpeg","img/FORMYVEGAN/4.jpg","img/FORMYVEGAN/5.jpeg","img/FORMYVEGAN/6.jpeg","img/FORMYVEGAN/7.jpeg","img/FORMYVEGAN/8.jpeg"]
     },
     {
         title: "GALES",
@@ -323,7 +323,7 @@ let listadoImagenes=[
         title: "BATTLO",
         precio: "$3500",
         description: "Botinetas de cuero con cierre interno | Color negro lila blanco",
-        imgUrl:["img/BATTLO/principal1.jpg" ,"img/BATTLO/1.jpeg","img/BATTLO/2.jpeg","img/BATTLO/3.jpg"  ]
+        imgUrl:["img/BATTLO/principal1.jpg" ,"img/BATTLO/1.jpeg","img/BATTLO/2.jpg","img/BATTLO/3.jpg"  ]
     },
     {
         title: "JUDY",

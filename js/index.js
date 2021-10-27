@@ -255,12 +255,26 @@ if(rome==undefined){
     carru.style.display="none";
     let banne= document.querySelector(".banner");
     banne.style.display="none";
+    let poli= document.querySelector(".politicaas");
+    poli.style.display="none";
     let formulario = document.querySelector("form");
+  
+   
     formulario.addEventListener("submit", function(event) {
-    event.preventDefault();
-    var nombre = document.getElementById("nombreF").value;
-    localStorage.setItem("nombre2",nombre);
-    location.reload();
+        var nombre = document.getElementById("nombreF").value;
+        if(nombre==""){
+            event.preventDefault();
+            swal("Para continuar ingresa un nombre :)");
+           
+        }
+        else{
+            event.preventDefault();
+            localStorage.setItem("nombre2",nombre);
+            location.reload();
+        }
+    
+
+    
     console.log(rome);
 })
 

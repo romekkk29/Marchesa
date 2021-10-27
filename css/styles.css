@@ -560,4 +560,15 @@ hr{
       text-align: center;
       word-spacing: 0px;
       letter-spacing: 0px;
+      margin: 2px;
+ }
+ label{
+     margin:4px;
+ }
+ input{
+     margin:4px;
+ }
+ button{
+     color: white;
+     font-size: 11px;
  }

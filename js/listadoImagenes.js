@@ -397,6 +397,14 @@ let listadoImagenes=[
         description: "Sandalias de gamuza |  Color negro nude fucsia rojo",
         imgUrl:["img/sn12/1.jpeg","img/sn12/2.jpeg","img/sn12/3.jpeg","img/sn12/4.jpeg"]
     },
+    {
+        title: "INA",
+        precio: "$3500",
+        description: "Borcegos en stock | Talle 39",
+        imgUrl:["img/3/ina.jpeg"]
+    },
+    
+
     
 ];
 

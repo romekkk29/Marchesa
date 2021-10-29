@@ -6,7 +6,7 @@ btnMenu.addEventListener("click",function(e){
     
 })  
  
-var imagenes2= ["img/1/stock.jpeg","img/3/gales.jpeg","img/3/juanatacoalto.jpeg","img/3/ojota.jpeg","img/3/tacobajo.jpeg","img/SKYLA/principal.jpeg"];
+var imagenes2= ["img/1/stock.jpeg","img/3/gales.jpeg","img/3/juanatacoalto.jpeg","img/3/ojota.jpeg","img/3/tacobajo.jpeg","img/SKYLA/principal.jpeg","img/3/ina.jpeg"];
 
 let cont=0;
 function carrousel(contenedor,imagenes){
@@ -139,6 +139,28 @@ function myFunction2(){
         }
         if (cont==5){
             escribirHTML(listadoImagenes[0]);
+        let cancelar=document.querySelector(".teQuiero");
+         cancelar.style.display="none";
+         let contenedor3=document.querySelector(".norte");
+        carrousel(contenedor3,imgSrc) ;
+        let carrito=document.querySelector(".carrito");
+        carrito.style.display="block";
+        carrito.style.display="flex";
+        carrito.style.alignItems="center";
+        carrito.style.justifyContent="center";
+        let este=document.querySelector(".este");
+        este.style.display="none";
+        let imagennn=document.querySelector("#stockk");
+        imagennn.style.width="260px";
+        imagennn.style.height="260px";
+        let botones=document.querySelector(".atras");
+        botones.style.display="none";
+        let botoness=document.querySelector(".adelante");
+        botoness.style.display="none"
+
+        }
+        if (cont==6){
+            escribirHTML(listadoImagenes[66]);
         let cancelar=document.querySelector(".teQuiero");
          cancelar.style.display="none";
          let contenedor3=document.querySelector(".norte");

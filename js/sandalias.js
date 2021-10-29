@@ -1026,14 +1026,14 @@ imagennn.style.height="260px";
 let noHay= document.querySelector("#noHay");
 noHay.addEventListener("click",function(e){
    e.preventDefault();
-    swal(" ¡ cooming soon !");
+    swal(" ¡cooming soon!");
  
    
 })
 let noHay1= document.querySelector("#noHay1");
 noHay1.addEventListener("click",function(e){
    e.preventDefault();
-    swal(" ¡ cooming soon !");
+    swal(" ¡cooming soon!");
  
    
 })
@@ -1042,14 +1042,14 @@ noHay1.addEventListener("click",function(e){
 let winter= document.querySelector("#invierno");
 winter.addEventListener("click",function(e){
    e.preventDefault();
-    swal(" ¡ wait for the winter season !");
+    swal(" ¡wait for the winter season!");
  
    
 })
 let winter1= document.querySelector("#invierno1");
 winter1.addEventListener("click",function(e){
    e.preventDefault();
-    swal(" ¡ wait for the winter season !");
+    swal(" ¡wait for the winter season!");
  
    
 })

@@ -566,9 +566,11 @@ hr{
      margin:4px;
  }
  input{
-     margin:4px;
+     margin:8px;
  }
  button{
      color: white;
      font-size: 11px;
+   
+    
  }

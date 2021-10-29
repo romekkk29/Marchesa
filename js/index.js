@@ -170,14 +170,14 @@ function myFunction2(){
 let noHay= document.querySelector("#noHay");
 noHay.addEventListener("click",function(e){
    e.preventDefault();
-    swal(" ¡ cooming soon !");
+    swal(" ¡cooming soon!");
  
    
 })
 let noHay1= document.querySelector("#noHay1");
 noHay1.addEventListener("click",function(e){
    e.preventDefault();
-    swal(" ¡ cooming soon !");
+    swal(" ¡cooming soon!");
  
    
 })
@@ -185,14 +185,14 @@ noHay1.addEventListener("click",function(e){
 let winter= document.querySelector("#invierno");
 winter.addEventListener("click",function(e){
    e.preventDefault();
-    swal(" ¡ wait for the winter season !");
+    swal(" ¡wait for the winter season!");
  
    
 })
 let winter1= document.querySelector("#invierno1");
 winter1.addEventListener("click",function(e){
    e.preventDefault();
-    swal(" ¡ wait for the winter season !");
+    swal(" ¡wait for the winter season!");
  
    
 })
@@ -200,7 +200,7 @@ winter1.addEventListener("click",function(e){
 let noHayy= document.querySelector(".noHay");
 noHayy.addEventListener("click",function(e){
    e.preventDefault();
-    swal(" ¡ cooming soon !");
+    swal(" ¡cooming soon!");
  
    
 })
@@ -247,7 +247,7 @@ function escribirHTML(objeto) {
 
 
 
-let rome=localStorage.getItem("nombre2");
+/* let rome=localStorage.getItem("nombre2");
 if(rome==undefined){
     let body= document.querySelector("main");
     body.style.display="none";
@@ -262,20 +262,11 @@ if(rome==undefined){
    
     formulario.addEventListener("submit", function(event) {
         var nombre = document.getElementById("nombreF").value;
-        if(nombre==""){
-            event.preventDefault();
-            swal("Para continuar ingresa un nombre :)");
-           
-        }
-        else{
-            event.preventDefault();
-            localStorage.setItem("nombre2",nombre);
-            location.reload();
-        }
     
-
-    
-    console.log(rome);
+        event.preventDefault();
+                    localStorage.setItem("nombre2",nombre);
+                    location.reload(); 
+        
 })
 
 } else{
@@ -293,4 +284,4 @@ function escribirNombre(){
     
     `;
     contenedor.innerHTML += miTemplate;
-} 
+}  */

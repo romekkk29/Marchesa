@@ -244,8 +244,8 @@ let listadoImagenes=[
     {
         title: "CLEO",
         precio: "$4100",
-        description: "Sandalias de cuero con tachas y hebilla | Base de goma eva 2cm | Color camel negro rosa lila ",
-        imgUrl:["img/sn2/4.jpeg","img/sn2/1.jpeg","img/sn2/2.jpeg","img/sn2/3.jpeg","img/sn2/5.jpeg"]
+        description: "Sandalias de cuero con tachas y hebilla | Base de goma eva 2cm | Color camel negro  ",
+        imgUrl:["img/sn2/2.jpeg","img/sn2/1.jpeg"]
     },
     {
         title: "ABRU",
@@ -346,7 +346,7 @@ let listadoImagenes=[
     {
         title: "HERMES",
         precio: "$4100",
-        description: "Sandalias de cuero | Plataforma 5cm | Color negro camel rosa nude",
+        description: "Sandalias de cuero | Plataforma 5cm | Color negro camel rosa",
         imgUrl:["img/sn4/1.jpeg","img/sn4/2.jpeg"]
     },
     {
@@ -365,7 +365,7 @@ let listadoImagenes=[
         title: "VENECIA",
         precio: "$4100",
         description: "Sandalias de cuero con tachas | Plataforma 3cm | Color negro camel rosa",
-        imgUrl:["img/sn7/1.jpeg","img/sn7/2.jpeg"]
+        imgUrl:[""]
     },
     {
         title: "MALU",

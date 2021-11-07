@@ -908,24 +908,7 @@ let imagennn=document.querySelector(".agrandar");
 imagennn.style.width="260px";
 imagennn.style.height="260px";
 });
-let sn7=document.querySelector(".sn7");
-sn7.addEventListener("click", function(){
-escribirHTML(listadoImagenes[60]);
-let cancelar=document.querySelector(".teQuiero");
-cancelar.style.display="none";
-let contenedor4=document.querySelector(".norte");
-carrousel(contenedor4,imgSrc) ;
-let carrito=document.querySelector(".carrito");
-carrito.style.display="block";
-carrito.style.display="flex";
-carrito.style.alignItems="center";
-carrito.style.justifyContent="center";
-let este=document.querySelector(".este");
-este.style.display="none";
-let imagennn=document.querySelector(".agrandar");
-imagennn.style.width="260px";
-imagennn.style.height="260px";
-});
+
 let sn8=document.querySelector(".sn8");
 sn8.addEventListener("click", function(){
 escribirHTML(listadoImagenes[61]);

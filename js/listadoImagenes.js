@@ -14,10 +14,10 @@ let listadoImagenes=[
         imgUrl:["img/3/gales.jpeg","img/3/gales.jpeg"]
     },    
     {
-        title: "GIN",
-        precio: "$4000",
-        description: "Sandalias cuero | Taco 15cm | Color negro | Numero 37 sin reingreso",
-        imgUrl:["img/3/juanatacoalto.jpeg","img/3/juanatacoalto.jpeg"]
+        title: "ONOS",
+        precio: "$4600",
+        description: "Sandalias cuero",
+        imgUrl:["img/ONOS/1.jpg" ,"img/ONOS/1.jpg" ]
     },
     {
         title: "MALI WHITE",

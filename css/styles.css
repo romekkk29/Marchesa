@@ -574,3 +574,34 @@ hr{
    
     
  }
+ .renovar{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 5px;
+     font-family: "verdana";
+ }
+ .renovando{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 500px;
+     font-family: "verdana";
+     font-size: 15px;
+     word-spacing: 2px;
+     letter-spacing: 0px;
+     font-weight: 100;
+ }
+ .reparando{
+     width:70px;
+     height: 70px;
+     margin: 20px;
+     font-family: "verdana";
+ }
+ footer{
+     position: absolute;
+     bottom: 0px;
+     width: 100%;
+ }

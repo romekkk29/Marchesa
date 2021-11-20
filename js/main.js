@@ -6,6 +6,7 @@ btnMenu.addEventListener("click",function(e){
     
 })  
 
+
 var imagenes2= ["img/1/stock.jpeg","img/3/gales.jpeg","img/TOKEN/principal.jpeg","img/3/ojota.jpeg","img/3/tacobajo.jpeg","img/SKYLA/principal.jpeg","img/ONOS/1.jpg","img/malibu/3.jpeg"];
 
 let cont=0;

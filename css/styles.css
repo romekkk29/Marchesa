@@ -587,7 +587,7 @@ hr{
      flex-direction: column;
      justify-content: center;
      align-items: center;
-     height: 500px;
+     height: 60vh;
      font-family: "verdana";
      font-size: 15px;
      word-spacing: 2px;
@@ -604,4 +604,7 @@ hr{
      position: absolute;
      bottom: 0px;
      width: 100%;
+ }
+ body{
+     min-height: 100vh;
  }

@@ -14,10 +14,11 @@ let listadoImagenes=[
         imgUrl:["img/3/gales.jpeg","img/3/gales.jpeg"]
     },    
     {
-        title: "ONOS",
-        precio: "$4600",
+        title: "SELMA",
+        precio: "Ef/Transf. $5600",
+        cuotas: " de $2300 " ,
         description: "Sandalias cuero",
-        imgUrl:["img/ONOS/1.jpg" ,"img/ONOS/1.jpg" ]
+        imgUrl:["img/CATÁLOGOSANDALIAS/selma5600-6900/1.jpg","img/CATÁLOGOSANDALIAS/selma5600-6900/2.jpg","img/CATÁLOGOSANDALIAS/selma5600-6900/3.jpg","img/CATÁLOGOSANDALIAS/selma5600-6900/4.jpg","img/CATÁLOGOSANDALIAS/selma5600-6900/5.jpg","img/CATÁLOGOSANDALIAS/selma5600-6900/6.jpg","img/CATÁLOGOSANDALIAS/selma5600-6900/7.jpg","img/CATÁLOGOSANDALIAS/selma5600-6900/8.jpg" ]
     },
     {
         title: "MALI WHITE",
@@ -32,136 +33,158 @@ let listadoImagenes=[
         imgUrl:["img/3/tacobajo.jpeg","img/3/tacobajo.jpeg"]
     },
     {
-        title: "ASIC",
-        precio: "$5100",
-        description: "Sandalias de cuero | color negro | Plataforma: 2.5cm",
-        imgUrl:["img/ASICCUERO_/principal.jpg","img/ASICCUERO_/1.jpg","img/ASICCUERO_/2.jpg","img/ASICCUERO_/3.jpg"]
+        title: "AMBIO",
+        precio: "Ef/Transf. $4300 ",
+        cuotas: " de $1850 " ,
+        description: "Sandalias punta cuadrada | color negro & nude",
+        imgUrl:["img/CATÁLOGOSANDALIAS/ambio5600-4300/AMBIO(2).jpg","img/CATÁLOGOSANDALIAS/ambio5600-4300/AMBIO(1).jpg","img/CATÁLOGOSANDALIAS/ambio5600-4300/AMBIO.jpg"]
     },
     {
-        title: "BERRY",
-        precio: "$5800",
-        description: "Sandalias de cuero vacuno con apliques | Base de goma eva de 8cm | Color negro",
-        imgUrl:["img/BERRYCUERO_/principal3.jpg","img/BERRYCUERO_/1.jpeg","img/BERRYCUERO_/2.jpg"]
+        title: "HAILEY",
+        precio: " Ef/Transf. $5800",
+        cuotas: " de $2300 " , 
+        description: "Sandalias de cuero vacuno | Taco acrilico 9cm | Color negro blanco & suela",
+        imgUrl:["img/CATÁLOGOSANDALIAS/atares7150-5800/ATARESHABANO(1).jpg","img/CATÁLOGOSANDALIAS/atares7150-5800/ATARESHABANO.jpg","img/CATÁLOGOSANDALIAS/atares7150-5800/ATARESNEGRO.jpg"]
     },
     {
-        title: "BLOSAM",
-        precio: "$5500",
-        description: "Sandalias de cuero | Base de goma eva de 8cm | Color negro & blanco",
-        imgUrl:["img/BLOSAM/principal.jpg","img/BLOSAM/1.jpg","img/BLOSAM/2.jpg","img/BLOSAM/3.jpg"]
+        title: "CAMILLE",
+        precio: "Ef/Transf. $5500",
+        cuotas: " de $2200 " ,
+        description: "Sandalias de cuero",
+        imgUrl:["img/CATÁLOGOSANDALIAS/batery6650-5400/BATERYNEGRA(1).jpeg",]
     },
     {
-        title: "SHIRA",
-        precio: "$4300",
-        description: "Sandalias de cuero con tachas | Base de 6cm | Color negro",
-        imgUrl:["img/SHIRA/principal.jpg","img/SHIRA/1.jpg","img/SHIRA/2.jpeg"]
+        title: "ITZIAR",
+        precio: "Ef/Transf. $3250",
+        cuotas: " de $1350 " ,
+        description: "Sandalias de cuero",
+        imgUrl:["img/CATÁLOGOSANDALIAS/birk3250-3990/0.jpeg","img/CATÁLOGOSANDALIAS/birk3250-3990/1.jpeg"]
     },
     {
-        title: "CLOE",
-        precio: "$5100",
-        description: "Sandalias de cuero con apliques en color plateado | Plataforma de 5cm Taco 6.5cm | Color negro",
-        imgUrl:["img/CLOE/principal1.jpg","img/CLOE/2.jpg","img/CLOE/3.jpg"]
+        title: "KIMBER",
+        precio: "Ef/Transf. $4550",
+        cuotas: " de $1850 " ,
+        description: "Sandalias de cuero | Taco 6cm ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/buki-kimber-4550-5600/bukinude_.jpg" ,"img/CATÁLOGOSANDALIAS/buki-kimber-4550-5600/BUKINEGRO.jpg"]
     },
     {
-        title: "FINNI",
-        precio: "$4900",
-        description: "Sandalias de cuero | Base de goma eva de 4cm | Color negro blanco print ",
-        imgUrl:["img/FINNI/4.JPG","img/FINNI/principal1.jpg","img/FINNI/1.jpeg","img/FINNI/2.jpeg","img/FINNI/3.jpeg"]
+        title: "CARME",
+        precio: "Ef/Transf. $4400",
+        cuotas: " de $1800 " ,
+        description: "Sandalias de cuero  ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/carmelo4400-5420/CARAMELONEGRO(1).jpg","img/CATÁLOGOSANDALIAS/carmelo4400-5420/CARAMELOBLANCO_.jpg","img/CATÁLOGOSANDALIAS/carmelo4400-5420/CARAMELONEGRO.jpg","img/CATÁLOGOSANDALIAS/carmelo4400-5420/CARAMELOSUEL.jpg","img/CATÁLOGOSANDALIAS//carmelo4400-5420/CARAMELOUELA_.jpg"]
     },
     {
-        title: "FLAUNT",
-        precio: "$4900",
-        description: "Sandalias de cuero con detalle trenzado | Taco de 7cm | Color negro & nude ",
-        imgUrl:["img/FLAUNT/principal1.jpg","img/FLAUNT/1.jpg","img/FLAUNT/2.jpg","img/FLAUNT/3.jpg"]
+        title: "CHARO",
+        precio:  "Ef/Transf. $3400",
+        cuotas: " de $1400 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/charo3400-4190/1.jpeg","img/CATÁLOGOSANDALIAS/charo3400-4190/2.jpeg","img/CATÁLOGOSANDALIAS/charo3400-4190/3.jpeg"]
     },
     {
-        title: "FORM",
-        precio: "$4900",
-        description: "Sandalias de cuero en colores pastel | Base de 2.5cm | Color negro nude lila rosa blanco ",
-        imgUrl:["img/FORMYVEGAN/principal1.jpeg","img/FORMYVEGAN/1.jpg","img/FORMYVEGAN/2.jpg","img/FORMYVEGAN/3.jpeg","img/FORMYVEGAN/4.jpg","img/FORMYVEGAN/5.jpeg","img/FORMYVEGAN/6.jpeg","img/FORMYVEGAN/7.jpeg","img/FORMYVEGAN/8.jpeg"]
+        title: "SOFIA",
+        precio: "Ef/Transf. $4500",
+        cuotas: " de $1820 " ,
+        description: "Sandalias de cuero  ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/clei4500-5470/CLEIHUESO.jpg","img/CATÁLOGOSANDALIAS/clei4500-5470/CLEIARILLO(1).jpg","img/CATÁLOGOSANDALIAS/clei4500-5470/CLEICELESTE.jpg","img/CATÁLOGOSANDALIAS/clei4500-5470/CLEIHUESO(1).jpg","img/CATÁLOGOSANDALIAS/clei4500-5470/CLEILILA_.jpg","img/CATÁLOGOSANDALIAS/clei4500-5470/CLEINEGRO_(1).jpg"]
     },
     {
-        title: "GALES",
-        precio: "$5400",
-        description: "Sandalias de cuero con detalles en plateado | Plataforma de 9cm | Color negro ",
-        imgUrl:["img/GIULIA/principal.jpeg","img/GIULIA/1.jpg","img/GIULIA/2.jpeg","img/GIULIA/3.jpg"]
+        title: "COX",
+        precio: "Ef/Transf. $3900",
+        cuotas: " de $1600 " ,
+        description: "Sandalias de cuero  ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/coca3900-4800/COCABLANCA.jpg","img/CATÁLOGOSANDALIAS/coca3900-4800/COCABLANCO_.jpg","img/CATÁLOGOSANDALIAS/coca3900-4800/COCANEGRO.jpg"]
     },
     {
-        title: "SUNNY",
-        precio: "$3500",
-        description: "Sandalias de goma inyectada  | Plataforma de 4.5cm | Color negro rosa nude naranja blanco ",
-        imgUrl:["img/SKYLA/principal.jpeg","img/SKYLA/0.jpeg","img/SKYLA/1.png","img/SKYLA/2.png","img/SKYLA/3.jpg"]
+        title: "CUIABA",
+        precio: "Ef/Transf. $5800",
+        cuotas: " de $2300 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/cuba7150-5800/CUBA(1).jpg","img/CATÁLOGOSANDALIAS/cuba7150-5800/CUBA(2).jpg","img/CATÁLOGOSANDALIAS/cuba7150-5800/CUBA.jpg"]
     },
     {
-        title: "GRETA",
-        precio: "$4900",
-        description: "Sandalias de cuero | Plataforma de goma eva de 8cm | Color negro & nude",
-        imgUrl:["img/NANDA/principal1.jpg","img/NANDA/1.jpg","img/NANDA/2.JPG","img/NANDA/3.jpg","img/NANDA/4.jpg"]
+        title: "COMFY",
+        precio: "Ef/Transf. $3600",
+        cuotas: " de $1480 " ,
+        description: "",
+        imgUrl:["img/CATÁLOGOSANDALIAS/electra4450-3600/1.jpeg"]
     },
     {
-        title: "KALEB",
-        precio: "$5100",
+        title: "KALU",
+        precio: "$3900",
+        cuotas: " de $1600 " ,
         description: "Sandalias de cuero detalles en trenza | Plataforma de 2cm | Color negro blanco suela",
         imgUrl:["img/KALEB/principal.jpeg","img/KALEB/1.jpeg","img/KALEB/2.jpeg","img/KALEB/3.jpeg"]
     },
     {
-        title: "WIPPEI",
-        precio: "$5700",
-        description: "Sandalias de cuero | Plataforma de 5cm Taco 7cm | Color negro & suela",
-        imgUrl:["img/WIPEI/principal.jpeg" ,"img/WIPEI/1.jpeg" ,"img/WIPEI/2.jpg"]
-    },
-    {
-        title: "SIUX",
-        precio: "$5400",
-        description: "Sandalias de cuero con apliques en plateado | Plataforma de 4cm | Color negro",
-        imgUrl:["img/SIUX/principal.jpeg" ,"img/SIUX/1.jpeg" ,"img/SIUX/2.jpeg","img/SIUX/3.jpeg"]
-    },
-    {
-        title: "PLEO",
-        precio: "$5200",
-        description: "Sandalias de cuero con apliques y hebillas | Color negro",
-        imgUrl:["img/PLEO/principal.jpeg"]
-    },
-    {
-        title: "DAFF",
-        precio: "$5500",
-        description: "Sandalias de cuero | Plataforma 5cm | Capellada zebra, combinado con color suela beige negro",
-        imgUrl:["img/DAFF/principal.PNG","img/DAFF/1.jpeg","img/DAFF/2.jpeg","img/DAFF/3.jpg","img/DAFF/4.jpeg","img/DAFF/5.png"]
-    },
-    {
-        title: "NIKKA",
-        precio: "$5700",
-        description: "Sandalias de cuero con apliques | Plataforma 9cm | Color negro",
-        imgUrl:["img/NIKKA/principal.jpeg","img/NIKKA/1.jpg"]
-    },
-    {
-        title: "MALI",
-        precio: "$5800",
-        description: "Sandalias de cuero con detalle en taco | Color negro & nude",
-        imgUrl:["img/MALI/principal.jpeg","img/MALI/1.jpeg","img/MALI/2.jpeg","img/MALI/3.jpg","img/MALI/4.jpg"]
-    },
-    {
-        title: "LAST",
-        precio: "$5300",
-        description: "Sandalias de cuero con tachas | Plataforma 6cm | Color negro",
-        imgUrl:["img/LAST/principal.jpeg","img/LAST/1.jpeg","img/LAST/2.jpeg"]
-    },
-    {
-        title: "KIMBER",
-        precio: "$4550",
-        description: "Sandalias de cuero | Taco 6cm | Color negro & nude",
-        imgUrl:["img/KIMBERLY/principal.jpg","img/KIMBERLY/1.jpg","img/KIMBERLY/2.jpg","img/KIMBERLY/3.jpg","img/KIMBERLY/4.jpg"]
-    },
-    {
-        title: "NOSSA",
-        precio: "$5300",
-        description: "Sandalias de cuero con capellada print | Plataforma 9cm | Color negro",
-        imgUrl:["img/NOSSA/principal.jpeg"]
-    },
-    {
         title: "MONACO",
-        precio: "$4700",
-        description: "Sandalias de cuero | Taco 6cm | Color negro & nude",
-        imgUrl:["img/TOKEN/principal.jpeg","img/TOKEN/1.jpeg","img/TOKEN/2.jpeg","img/TOKEN/3.jpeg","img/TOKEN/4.jpeg","img/TOKEN/5.jpeg","img/TOKEN/5.jpeg","img/TOKEN/6.jpeg","img/TOKEN/8.jpg"]
+        precio: "Ef/Transf. $4550",
+        cuotas: " de $1866 " ,
+        description: "Sandalias de cuero | Taco 6cm",
+        imgUrl:["img/CATÁLOGOSANDALIAS/enter4550-5600/ENTERNUDE.jpg" ,"img/CATÁLOGOSANDALIAS/enter4550-5600/ENTERNUDE(1).jpg" ,"img/CATÁLOGOSANDALIAS/enter4550-5600/ENTERNEGRO.jpg","img/CATÁLOGOSANDALIAS/enter4550-5600/ENTERBLANCO.jpg","img/CATÁLOGOSANDALIAS/enter4550-5600/ENTER.jpg"]
+    },
+    {
+        title: "AMPARO",
+        precio: "Ef/Transf. $4000",
+        cuotas: " de $1650 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/ever4000-4920/EVERNEGRO.jpg","img/CATÁLOGOSANDALIAS/ever4000-4920/EVERBLANCO.jpg" ,"img/CATÁLOGOSANDALIAS/ever4000-4920/EVERBLANCO(1).jpg"]
+    },
+    {
+        title: "BRIT",
+        precio: "Ef/Transf. $5900",
+        cuotas: " de $2420 " ,
+        description: "Sandalias de cuero |  Taco acrilico  ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/gold5900-7260/1.jpeg","img/CATÁLOGOSANDALIAS/gold5900-7260/2.jpeg","img/CATÁLOGOSANDALIAS/gold5900-7260/3.jpeg","img/CATÁLOGOSANDALIAS/gold5900-7260/4.jpeg","img/CATÁLOGOSANDALIAS/gold5900-7260/5.jpeg","img/CATÁLOGOSANDALIAS/gold5900-7260/6.jpeg"]
+    },
+    {
+        title: "TASHA",
+        precio: "Ef/Transf. $4550",
+        cuotas: " de $1860 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/kimi4550-5600/KIMI(1).jpg","img/CATÁLOGOSANDALIAS/kimi4550-5600/KIMI.jpg"]
+    },
+    {
+        title: "KRISTEN",
+        precio: "Ef/Transf. $3100",
+        cuotas: " de $1300 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/kristen3950-3100/1.jpg","img/CATÁLOGOSANDALIAS/kristen3950-3100/2.jpg","img/CATÁLOGOSANDALIAS/kristen3950-3100/3.jpg","img/CATÁLOGOSANDALIAS/kristen3950-3100/4.jpg","img/CATÁLOGOSANDALIAS/kristen3950-3100/5.jpg","img/CATÁLOGOSANDALIAS/kristen3950-3100/6.jpg","img/CATÁLOGOSANDALIAS/kristen3950-3100/7.jpg","img/CATÁLOGOSANDALIAS/kristen3950-3100/8.jpg","img/CATÁLOGOSANDALIAS/kristen3950-3100/9.jpg","img/CATÁLOGOSANDALIAS/kristen3950-3100/10.jpg"]
+    },
+    {
+        title: "BRISTOL",
+        precio: "Ef/Transf. $4900",
+         cuotas: " de $2000 " ,
+        description: "Sandalias de cuero | Plataforma 10cm",
+        imgUrl:["img/CATÁLOGOSANDALIAS/level-4900-6000/1.jpg","img/CATÁLOGOSANDALIAS/level-4900-6000/2.jpg"]
+    },
+    {
+        title: "CARMELA",
+        precio: "Ef/Transf. $3500",
+        cuotas: " de $1400 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/luz-3500-4200/1.jpg","img/CATÁLOGOSANDALIAS/luz-3500-4200/2.jpg","img/CATÁLOGOSANDALIAS/luz-3500-4200/3.jpg","img/CATÁLOGOSANDALIAS/luz-3500-4200/4.jpg","img/CATÁLOGOSANDALIAS/luz-3500-4200/5.jpeg"]
+    },
+    {
+        title: "MALAGA",
+        precio:"Ef/Transf. $5150",
+        cuotas: " de $2100 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/malaga-5150-6340/1.jpeg","img/CATÁLOGOSANDALIAS/malaga-5150-6340/2.jpg", "img/CATÁLOGOSANDALIAS/malaga-5150-6340/3.jpeg"]
+    },
+    {
+        title: "AMBAR",
+        precio: "Ef/Transf. $5600",
+        cuotas: " de $2300 " ,
+        description: "Sandalias de cuero | Taco 9cm",
+        imgUrl:["img/CATÁLOGOSANDALIAS/mali5600-6900/1.jpg","img/CATÁLOGOSANDALIAS/mali5600-6900/2.jpg","img/CATÁLOGOSANDALIAS/mali5600-6900/3.jpg"]
+    },
+    {
+        title: "MASOL",
+        precio: "Ef/Transf. $3550",
+        cuotas: " de $1450 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/masol3550-4400/1.jpg","img/CATÁLOGOSANDALIAS/masol3550-4400/2.jpg","img/CATÁLOGOSANDALIAS/masol3550-4400/3.jpg","img/CATÁLOGOSANDALIAS/masol3550-4400/4.jpg","img/CATÁLOGOSANDALIAS/masol3550-4400/5.jpg","img/CATÁLOGOSANDALIAS/masol3550-4400/6.jpg","img/CATÁLOGOSANDALIAS/masol3550-4400/7.jpg","img/CATÁLOGOSANDALIAS/masol3550-4400/8.jpg","img/CATÁLOGOSANDALIAS/masol3550-4400/9.jpg"]
     },
     {
         title: "ATENAS",
@@ -170,28 +193,32 @@ let listadoImagenes=[
         imgUrl:["img/ATENAS/principal.jpeg"]
     },
     {
-        title: "COMFY",
-        precio: "$3900",
-        description: "Sandalias de cuero con apliques | Taco 6cm | Color negro & blanco",
-        imgUrl:["img/COMFY/principal.jpeg","img/COMFY/2.jpeg"]
+        title: "MELI",
+        precio: "Ef/Transf. $3950",
+        cuotas: " de $1260 " ,
+        description: "Sandalias de cuero",
+        imgUrl:["img/CATÁLOGOSANDALIAS/melli3950-4400/1.jpg","img/CATÁLOGOSANDALIAS/melli3950-4400/2.jpg" ]
     },
     {
-        title: "HELENA",
-        precio: "$4700",
-        description: "Sandalias de cuero | Plataforma 4cm | Color negro & dorado",
-        imgUrl:["img/DREYA/principal.jpeg","img/DREYA/1.jpeg","img/DREYA/2.jpeg"]
+        title: "VENECIA",
+        precio: "Ef/Transf. $5800",
+        cuotas: " de $2400 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/nerea7150-5800/1.jpg","img/CATÁLOGOSANDALIAS/nerea7150-5800/2.jpg","img/CATÁLOGOSANDALIAS/nerea7150-5800/3.jpg","img/CATÁLOGOSANDALIAS/nerea7150-5800/4.jpg","img/CATÁLOGOSANDALIAS/nerea7150-5800/5.jpg"]
     },
     {
-        title: "CARMELA",
-        precio: "$4700",
-        description: "Sandalias de cuero | Taco 6cm | Color negro blanco rosa",
-        imgUrl:["img/TURY/principal.jpeg","img/TURY/1.jpeg","img/TURY/2.jpeg","img/TURY/3.jpeg","img/TURY/4.jpeg","img/TURY/5.jpg","img/TURY/6.jpg"]
+        title: "NINA",
+        precio: "Ef/Transf. $3200",
+        cuotas: " de $1300 " ,
+        description: "Sandalias de cuero",
+        imgUrl:["img/CATÁLOGOSANDALIAS/niny3200-3990/1.jpg","img/CATÁLOGOSANDALIAS/niny3200-3990/2.jpg","img/CATÁLOGOSANDALIAS/niny3200-3990/3.jpg","img/CATÁLOGOSANDALIAS/niny3200-3990/4.jpg"]
     },
     {
-        title: "TOKIO",
-        precio: "$4700",
-        description: "Sandalias de cuero con apliques en cuero | Plataforma 4cm | Color negro",
-        imgUrl:["img/RICH/principal.jpeg","img/RICH/1.jpeg"]
+        title: "NIRA",
+        precio:  "Ef/Transf. $3600",
+        cuotas: " de $1500 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/nira3600-4450/1.jpg","img/CATÁLOGOSANDALIAS/nira3600-4450/2.jpg"]
     },
     {
         title: "PAXXY",
@@ -200,50 +227,58 @@ let listadoImagenes=[
         imgUrl:[]
     },
     {
-        title: "GRETA",
-        precio: "$3900",
-        description: "Capellada de cuero | Plataforma 4cm | Color negro & nude",
-        imgUrl:["img/RENI/principal.jpeg","img/RENI/1.jpeg","img/RENI/2.jpeg","img/RENI/3.jpg"]
+        title: "PIERI",
+        precio: "Ef/Transf. $4400",
+        cuotas: " de $1800 " ,
+        description: "Capellada de cuero",
+        imgUrl:["img/CATÁLOGOSANDALIAS/piera4400-5420/PIERA.jpg"]
     },
     {
-        title: "NEST",
-        precio: "$3900",
-        description: "Capellada de cuero | Base 6cm | Color negro",
-        imgUrl:["img/NEST/principal.jpeg","img/NEST/1.jpg","img/NEST/2.jpg","img/NEST/3.jpeg"]
+        title: "PILI",
+        precio: "Ef/Transf. $4250",
+        cuotas: " de $1750 " ,
+        description: "Capellada de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/pili4250-5250/5.jpg","img/CATÁLOGOSANDALIAS/pili4250-5250/1.jpg","img/CATÁLOGOSANDALIAS/pili4250-5250/2.jpg","img/CATÁLOGOSANDALIAS/pili4250-5250/3.jpg","img/CATÁLOGOSANDALIAS/pili4250-5250/4.jpg","img/CATÁLOGOSANDALIAS/pili4250-5250/5.jpg"]
     },
     {
-        title: "CLARI",
-        precio: "$4700",
-        description: "Sandalias de cuero brillantes | Color black & gold",
-        imgUrl:["img/MASOL/PRINCIPAL.jpeg","img/MASOL/2DA.jpeg","img/MASOL/3RA.jpeg","img/MASOL/4TA.jpeg"]
+        title: "RADIK",
+        precio: "Ef/Transf. $4350",
+        cuotas: " de $1890 " ,
+        description: "Sandalias de cuero ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/radik4350-5350/1.jpg","img/CATÁLOGOSANDALIAS/radik4350-5350/2.jpg","img/CATÁLOGOSANDALIAS/radik4350-5350/3.jpg"]
     },
     {
         title: "CRETA",
         precio: "$3900",
+        cuotas: " de $1600 " ,
         description: "Sandalias de cuero con tachas y hebilla | Plataforma 3cm | Color black camel nude white ",
         imgUrl:["img/sn3/1.jpeg","img/sn3/3.jpeg"]
     },
     {
-        title: "EVIAL",
-        precio: "$4400",
-        description: "Capellada de cuero detalle con trenza | Taco 6cm | Color negro",
-        imgUrl:["img/EVIAL/principal.jpeg","img/EVIAL/1.jpeg","img/EVIAL/2.jpeg","img/EVIAL/3.jpg"]
+        title: "REMI",
+        precio:"Ef/Transf. $3600",
+        cuotas: " de $1500 " ,
+        description: "Sandalias de cuero | Taco 6cm",
+        imgUrl:["img/CATÁLOGOSANDALIAS/remi3600-4450/1.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/2.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/3.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/4.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/5.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/6.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/7.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/8.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/9.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/10.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/11.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/12.jpg","img/CATÁLOGOSANDALIAS/remi3600-4450/13.jpg"]
     },
     {
-        title: "DRUNA",
-        precio: "$5700",
-        description: "Capellada de cuero con apliques en plateado | Plataforma 4cm | Color negro camel blanco",
-        imgUrl:["img/DRUNA/principal.jpeg","img/DRUNA/1.jpeg"]
+        title: "RENU",
+        precio: "Ef/Transf. $4250",
+        cuotas: " de $1850 " ,
+        description: "Capellada de cuero con apliques ",
+        imgUrl:["img/CATÁLOGOSANDALIAS/renu4250-5550/1.jpg","img/CATÁLOGOSANDALIAS/renu4250-5550/2.jpg","img/CATÁLOGOSANDALIAS/renu4250-5550/3.jpg","img/CATÁLOGOSANDALIAS/renu4250-5550/4.jpg","img/CATÁLOGOSANDALIAS/renu4250-5550/5.jpg","img/CATÁLOGOSANDALIAS/renu4250-5550/6.jpg"]
     },
     {
-        title: "BRUSEL",
-        precio: "$5300",
-        description: "Sandalias de cuero con tiras de rafia | Base de goma eva 5cm | Color camel",
-        imgUrl:["img/BRUSEL/principal.jpeg","img/BRUSEL/1.jpg","img/BRUSEL/2.jpg"]
+        title: "RICHI",
+        precio: "Ef/Transf. $3600",
+        cuotas: " de $2300 " ,
+        description: "Sandalias de cuero",
+        imgUrl:["img/CATÁLOGOSANDALIAS/richi5600-6900/1.jpg","img/CATÁLOGOSANDALIAS/richi5600-6900/2.jpg","img/CATÁLOGOSANDALIAS/richi5600-6900/3.jpg","img/CATÁLOGOSANDALIAS/richi5600-6900/4.jpg"]
     },
     {
         title: "CLEO",
-        precio: "$4100",
+        precio: "Ef/Transf. $3800",
+        cuotas: " de $1560 " ,
         description: "Sandalias de cuero con tachas y hebilla | Base de goma eva 2cm | Color camel negro  ",
         imgUrl:["img/sn2/2.jpeg","img/sn2/1.jpeg"]
     },
@@ -315,9 +350,10 @@ let listadoImagenes=[
     },
     {
         title: "MALIBU",
-        precio: "$3500",
+        precio: "Ef/Transf. $3500",
+        cuotas: " de $1430 " ,
         description: "Super tendencia para este verano| Sandalias de goma inyectada | Color negro chocolate naranja rosado verde pastel",
-        imgUrl:["img/malibu/2.jpeg","img/malibu/1.jpeg","img/malibu/3.jpeg"]
+        imgUrl:["img/malibu/2.jpeg","img/malibu/1.jpeg","img/malibu/3.jpeg","img/malibu/4.jpeg","img/malibu/5.jpeg","img/malibu/6.jpeg","img/malibu/8.jpeg","img/malibu/9.jpeg","img/malibu/10.jpeg","img/malibu/11.jpeg","img/malibu/12.jpeg"]
     },
     {
         title: "BATTLO",
@@ -339,25 +375,29 @@ let listadoImagenes=[
     },
     {
         title: "BELGICA",
-        precio: "$3900",
+        precio: "Ef/Transf. $3800",
+        cuotas: " de $1560 " ,
         description: "Sandalias de cuero | Color animal print & cebra",
         imgUrl:["img/sinNombre/1.jpeg" ,"img/sinNombre/2.jpeg"]
     },
     {
         title: "HERMES",
-        precio: "$4100",
+        precio: "Ef/Transf. $4100",
+        cuotas: " de $1681 " ,
         description: "Sandalias de cuero | Plataforma 5cm | Color negro camel rosa",
         imgUrl:["img/sn4/1.jpeg","img/sn4/2.jpeg"]
     },
     {
         title: "MARRUECOS",
-        precio: "4100",
+        precio: "Ef/Transf. $4100",
+        cuotas: " de $1681 " ,
         description: "Sandalias de cuero con detalles y abrojo | Plataforma 6cm | Color camel",
         imgUrl:["img/sn5/1.jpeg","img/sn5/2.jpeg"]
     },
     {
         title: "INDIAN",
-        precio: "$4100",
+        precio: "Ef/Transf. $3800",
+        cuotas: " de $1560 " ,
         description: "Sandalias de cuero con tachas | Color cow & black",
         imgUrl:["img/sn6/2.jpeg","img/sn6/1.jpeg"]
     },
@@ -369,31 +409,36 @@ let listadoImagenes=[
     },
     {
         title: "MALU",
-        precio: "$3700",
+        precio: "Ef/Transf. $3300",
+        cuotas: " de $1353 " ,
         description: "Sandalias de gamuza | Taco 5cm | Color negro arena rojo fucsia verde ",
         imgUrl:["img/sn8/5.jpeg","img/sn8/6.jpeg","img/sn8/7.jpeg"]
     },
     {
         title: "MER",
-        precio: "$4100",
+        precio: "Ef/Transf. $3900",
+        cuotas: " de $1599 " ,
         description: "Sandalias de cuero con tachas | Color negro suela blanco",
         imgUrl:["img/sn9/1.jpeg","img/sn9/2.jpeg","img/sn9/3.jpeg"]
     },
     {
         title: "ROMA",
-        precio: "$4500",
+        precio: "Ef/Transf. $4300",
+        cuotas: " de $1763 " ,
         description: "Sandalias de cuero con tachas y hebillas | Plataforma 6cm | Color negro & suela",
         imgUrl:["img/sn10/1.jpeg","img/sn10/2.jpeg"]
     },
     {
         title: "RUT",
-        precio: "$3500",
+        precio: "Ef/Transf. $3500",
+        cuotas: " de $1435 " ,
         description: "Sandalias vegan de charol | Plataforma 1.5 Taco 6cm | Color negro nude gris celeste",
         imgUrl:["img/sn11/1.jpeg","img/sn11/2.jpeg","img/sn11/3.jpeg","img/sn11/4.jpeg","img/sn11/5.jpeg"]
     },
     {
         title: "IBIZA",
-        precio: "$3700",
+        precio: "Ef/Transf. $3550",
+        cuotas: " de $1456 " ,
         description: "Sandalias de gamuza |  Color negro nude fucsia rojo",
         imgUrl:["img/sn12/1.jpeg","img/sn12/2.jpeg","img/sn12/3.jpeg","img/sn12/4.jpeg"]
     },
@@ -403,9 +448,52 @@ let listadoImagenes=[
         description: "Borcegos en stock | Talle 39",
         imgUrl:["img/3/ina.jpeg"]
     },
-    
+    {  title: "SINU",
+    precio: "Ef/Transf. $4200",
+    cuotas: " de $1730 " ,
+    description: "Sandalias de cuero ",
+    imgUrl:["img/CATÁLOGOSANDALIAS/sinu4200-5190/1.jpg","img/CATÁLOGOSANDALIAS/sinu4200-5190/2.jpg","img/CATÁLOGOSANDALIAS/sinu4200-5190/3.jpg"],
+    },
+    {  title: "SUMMER",
+    precio: "Ef/Transf. $4550",
+    cuotas: " de $1863 " ,
+    description: "Sandalias de cuero ",
+    imgUrl:["img/CATÁLOGOSANDALIAS/summer4550-5590/1.jpg","img/CATÁLOGOSANDALIAS/summer4550-5590/2.jpg","img/CATÁLOGOSANDALIAS/summer4550-5590/3.jpg","img/CATÁLOGOSANDALIAS/summer4550-5590/4.jpg","img/CATÁLOGOSANDALIAS/summer4550-5590/5.jpg","img/CATÁLOGOSANDALIAS/summer4550-5590/6.jpg","img/CATÁLOGOSANDALIAS/summer4550-5590/7.jpg","img/CATÁLOGOSANDALIAS/summer4550-5590/8.jpg","img/CATÁLOGOSANDALIAS/summer4550-5590/9.jpg","img/CATÁLOGOSANDALIAS/summer4550-5590/10.jpg"],
+    },
+    {  title: "TAYLOR",
+    precio: "Ef/Transf. $5900",
+    cuotas: " de $2420 " ,
+    description: "Sandalias de cuero ",
+    imgUrl:["img/CATÁLOGOSANDALIAS/taylor5900-7260/1.jpg","img/CATÁLOGOSANDALIAS/taylor5900-7260/2.jpg","img/CATÁLOGOSANDALIAS/taylor5900-7260/3.jpg","img/CATÁLOGOSANDALIAS/taylor5900-7260/4.jpg","img/CATÁLOGOSANDALIAS/taylor5900-7260/5.jpg","img/CATÁLOGOSANDALIAS/taylor5900-7260/6.jpg"],
+    },
+    {  title: "TEQUILA",
+    precio: "Ef/Transf. $3600",
+    cuotas: " de $1480" ,
+    description: "Sandalias de cuero ",
+    imgUrl:["img/CATÁLOGOSANDALIAS/tequila3600-4450/1.jpg","img/CATÁLOGOSANDALIAS/tequila3600-4450/2.jpg","img/CATÁLOGOSANDALIAS/tequila3600-4450/3.jpg","img/CATÁLOGOSANDALIAS/tequila3600-4450/4.jpg"],
+    },
+    {  title: "WINK",
+    precio: "Ef/Transf. $3500",
+    cuotas: " de $1400" ,
+    description: "Sandalias de cuero ",
+    imgUrl:["img/CATÁLOGOSANDALIAS/wink-3500-4200/1.jpg","img/CATÁLOGOSANDALIAS/wink-3500-4200/2.jpg","img/CATÁLOGOSANDALIAS/wink-3500-4200/3.jpg"],
+    },
+    {  title: "TRONIK",
+    precio: "Ef/Transf. $4450",
+    cuotas: " de $1867" ,
+    description: "Sandalias de cuero ",
+    imgUrl:["img/CATÁLOGOSANDALIAS/tronik4450-5600/1.jpg","img/CATÁLOGOSANDALIAS/tronik4450-5600/2.jpg","img/CATÁLOGOSANDALIAS/tronik4450-5600/3.jpg","img/CATÁLOGOSANDALIAS/tronik4450-5600/4.jpg"],
+    },
+    {  title: "TROPIC",
+    precio: "Ef/Transf. $5550",
+    cuotas: " de $2283" ,
+    description: "Sandalias de cuero ",
+    imgUrl:["img/CATÁLOGOSANDALIAS/tropic5550-6850/TROPIC_.jpg"],
+    },
 
     
+
+
 ];
 
     

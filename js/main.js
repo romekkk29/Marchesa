@@ -206,15 +206,30 @@ function myFunction2(){
         }
     
    } 
-   let winter= document.querySelector("#invierno");
-   winter.addEventListener("click",function(e){
+
+   let winter1= document.querySelector("#invierno1");
+   winter1.addEventListener("click",function(e){
       e.preventDefault();
        swal(" ¡wait for the winter season!");
     
       
    })
-   let winter1= document.querySelector("#invierno1");
-   winter1.addEventListener("click",function(e){
+   let winter2= document.querySelector("#invierno2");
+   winter2.addEventListener("click",function(e){
+      e.preventDefault();
+       swal(" ¡wait for the winter season!");
+    
+      
+   })
+   let winter3= document.querySelector("#invierno3");
+   winter3.addEventListener("click",function(e){
+      e.preventDefault();
+       swal(" ¡wait for the winter season!");
+    
+      
+   })
+   let winter4= document.querySelector("#invierno4");
+   winter4.addEventListener("click",function(e){
       e.preventDefault();
        swal(" ¡wait for the winter season!");
     
@@ -235,6 +250,7 @@ noHay1.addEventListener("click",function(e){
  
    
 })
+
    
 let battlo=document.querySelector(".battlo");
 battlo.addEventListener("click", function(){

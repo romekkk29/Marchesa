@@ -225,15 +225,51 @@ noHay1.addEventListener("click",function(e){
    
 })
 
-let winter= document.querySelector("#invierno");
-winter.addEventListener("click",function(e){
+
+let winter1= document.querySelector("#invierno1");
+winter1.addEventListener("click",function(e){
    e.preventDefault();
     swal(" ¡wait for the winter season!");
  
    
 })
-let winter1= document.querySelector("#invierno1");
-winter1.addEventListener("click",function(e){
+let winter2= document.querySelector("#invierno2");
+winter2.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter3= document.querySelector("#invierno3");
+winter3.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter4= document.querySelector("#invierno4");
+winter4.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter5= document.querySelector("#invierno5");
+winter5.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter6= document.querySelector("#invierno6");
+winter6.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter7= document.querySelector("#invierno7");
+winter7.addEventListener("click",function(e){
    e.preventDefault();
     swal(" ¡wait for the winter season!");
  

@@ -604,24 +604,7 @@ let imagennn=document.querySelector(".agrandar");
 imagennn.style.width="260px";
 imagennn.style.height="260px";
 });
-let atenas=document.querySelector(".atenas");
-atenas.addEventListener("click", function(){
-escribirHTML(listadoImagenes[27]);
-let cancelar=document.querySelector(".teQuiero");
-cancelar.style.display="none";
-let contenedor4=document.querySelector(".norte");
-carrousel(contenedor4,imgSrc) ;
-let carrito=document.querySelector(".carrito");
-carrito.style.display="block";
-carrito.style.display="flex";
-carrito.style.alignItems="center";
-carrito.style.justifyContent="center";
-let este=document.querySelector(".este");
-este.style.display="none";
-let imagennn=document.querySelector(".agrandar");
-imagennn.style.width="260px";
-imagennn.style.height="260px";
-});
+
 let comfy=document.querySelector(".comfy");
 comfy.addEventListener("click", function(){
 escribirHTML(listadoImagenes[28]);
@@ -840,24 +823,8 @@ let imagennn=document.querySelector(".agrandar");
 imagennn.style.width="260px";
 imagennn.style.height="260px";
 });
-let luba=document.querySelector(".luba");
-luba.addEventListener("click", function(){
-escribirHTML(listadoImagenes[51]);
-let cancelar=document.querySelector(".teQuiero");
-cancelar.style.display="none";
-let contenedor4=document.querySelector(".norte");
-carrousel(contenedor4,imgSrc) ;
-let carrito=document.querySelector(".carrito");
-carrito.style.display="block";
-carrito.style.display="flex";
-carrito.style.alignItems="center";
-carrito.style.justifyContent="center";
-let este=document.querySelector(".este");
-este.style.display="none";
-let imagennn=document.querySelector(".agrandar");
-imagennn.style.width="260px";
-imagennn.style.height="260px";
-});
+
+
 let sinNombre=document.querySelector(".sinNombre");
 sinNombre.addEventListener("click", function(){
 escribirHTML(listadoImagenes[56]);
@@ -1058,6 +1025,133 @@ let imagennn=document.querySelector(".agrandar");
 imagennn.style.width="260px";
 imagennn.style.height="260px";
 });
+let sinu=document.querySelector(".sinu");
+sinu.addEventListener("click", function(){
+escribirHTML(listadoImagenes[67]);
+let cancelar=document.querySelector(".teQuiero");
+cancelar.style.display="none";
+let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+});
+let summer4=document.querySelector(".summer4");
+summer4.addEventListener("click", function(){
+escribirHTML(listadoImagenes[68]);
+let cancelar=document.querySelector(".teQuiero");
+cancelar.style.display="none";
+let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+});
+let taylor=document.querySelector(".taylor");
+taylor.addEventListener("click", function(){
+escribirHTML(listadoImagenes[69]);
+let cancelar=document.querySelector(".teQuiero");
+cancelar.style.display="none";
+let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+});
+let tequila=document.querySelector(".tequila");
+tequila.addEventListener("click", function(){
+escribirHTML(listadoImagenes[70]);
+let cancelar=document.querySelector(".teQuiero");
+cancelar.style.display="none";
+let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+});
+let wink=document.querySelector(".wink");
+wink.addEventListener("click", function(){
+escribirHTML(listadoImagenes[71]);
+let cancelar=document.querySelector(".teQuiero");
+cancelar.style.display="none";
+let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+});
+let tronik=document.querySelector(".tronik");
+tronik.addEventListener("click", function(){
+escribirHTML(listadoImagenes[72]);
+let cancelar=document.querySelector(".teQuiero");
+cancelar.style.display="none";
+let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+});
+let tropic=document.querySelector(".tropic");
+tropic.addEventListener("click", function(){
+escribirHTML(listadoImagenes[73]);
+let cancelar=document.querySelector(".teQuiero");
+cancelar.style.display="none";
+let contenedor4=document.querySelector(".norte");
+carrousel(contenedor4,imgSrc) ;
+let carrito=document.querySelector(".carrito");
+carrito.style.display="block";
+carrito.style.display="flex";
+carrito.style.alignItems="center";
+carrito.style.justifyContent="center";
+let este=document.querySelector(".este");
+este.style.display="none";
+let imagennn=document.querySelector(".agrandar");
+imagennn.style.width="260px";
+imagennn.style.height="260px";
+});
+
 
 
 
@@ -1083,15 +1177,30 @@ noHay1.addEventListener("click",function(e){
 })
 
 
-let winter= document.querySelector("#invierno");
-winter.addEventListener("click",function(e){
+
+let winter1= document.querySelector("#invierno1");
+winter1.addEventListener("click",function(e){
    e.preventDefault();
     swal(" ¡wait for the winter season!");
  
    
 })
-let winter1= document.querySelector("#invierno1");
-winter1.addEventListener("click",function(e){
+let winter2= document.querySelector("#invierno2");
+winter2.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter3= document.querySelector("#invierno3");
+winter3.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter4= document.querySelector("#invierno4");
+winter4.addEventListener("click",function(e){
    e.preventDefault();
     swal(" ¡wait for the winter season!");
  
@@ -1128,9 +1237,11 @@ function escribirHTML(objeto) {
     <img id=stockk class=agrandar src=${imgSrc[0]}>
     </div>
     
-    <p>${objeto.title}</p>
-    <br>
-    <p>${objeto.precio}</p>
+    <p class="okek">${objeto.title}</p>
+    
+    <p class="dospedos">${objeto.precio}</p>
+    
+    <p class="dospedos"> 3 cuotas <span class="quepedo"> sin interés</span>${objeto.cuotas}</p>
     <br>
     <hr>
     <p class="descri">${objeto.description}</p>

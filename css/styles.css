@@ -607,4 +607,21 @@ hr{
  }
  body{
      min-height: 100vh;
+     position: relative;
+     padding-bottom: 70px ;
+ }
+ .zx{
+     font-size: 17px;
+ }
+ .dospedos{
+     font-weight: 500;
+     font-size: 18px;
+     font-family: calibri;
+     padding: 4px;
+ }
+ .quepedo{
+    font-weight: bold;
+ }
+ .okek{
+     padding: 4px;
  }

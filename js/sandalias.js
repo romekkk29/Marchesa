@@ -1207,6 +1207,35 @@ winter4.addEventListener("click",function(e){
    
 })
 
+let winter5= document.querySelector("#invierno5");
+winter5.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter6= document.querySelector("#invierno6");
+winter6.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter7= document.querySelector("#invierno7");
+winter7.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+let winter8= document.querySelector("#invierno8");
+winter8.addEventListener("click",function(e){
+   e.preventDefault();
+    swal(" ¡wait for the winter season!");
+ 
+   
+})
+
 
 
 

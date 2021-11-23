@@ -616,7 +616,7 @@ hr{
  .dospedos{
      font-weight: 500;
      font-size: 18px;
-     font-family: calibri;
+     font-family: "calibri", sans-serif ;
      padding: 4px;
  }
  .quepedo{
